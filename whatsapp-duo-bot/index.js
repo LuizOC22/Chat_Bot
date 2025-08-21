@@ -1,72 +1,87 @@
+require('dotenv').config();
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
-const OpenAI = require('openai');
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-// Números de teste
-const NUM_A = '5511983947093';
-const NUM_B = '5511951014053';
-const wid = (num) => `${num}@c.us`;
+// IDs dos clientes
+const CLIENT_IDS = ['A', 'B', 'C', 'D'];
 
-// Configuração OpenAI (API Key diretamente para teste)
-const openai = new OpenAI({
-  apiKey: ''
-});
+// Defina os pares de conversa (quem responde quem)
+const PAIRS = {
+  A: 'B',
+  B: 'A',
+  C: 'D',
+  D: 'C'
+};
 
-// Função para gerar resposta da IA
-async function getIAResponse(prompt) {
-    const completion = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo",
-        messages: [{ role: "user", content: prompt }],
-        max_tokens: 150
-    });
-    return completion.choices[0].message.content;
+// Instancia a IA Gemini
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+
+async function getIAResponse(userMessage) {
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
+    const prompt = `
+        Responda de forma breve, clara e natural.
+        Use no máximo um parágrafo. Evite explicações longas.
+        Usuário: ${userMessage}
+    `;
+
+    const result = await model.generateContent(prompt);
+    const response = result.response;
+    return response.text();
 }
 
-// Delay fixo de 1 minuto para teste
-const randomDelay = () => 1 * 60 * 1000; // 1 minuto
-
+// Delay aleatório entre 1 e 10 minutos
+const randomDelay = () => {
+    const min = 1 * 60 * 1000;
+    const max = 10 * 60 * 1000;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+};
 
 // Função para enviar mensagem com atraso
 async function sendWithDelay(client, to, text) {
     const delay = randomDelay();
-    console.log(`⏱️ Próxima mensagem de ${client.options.authStrategy.clientId} em ${Math.floor(delay/60000)} minutos`);
+    console.log(`⏱️ Próxima mensagem de ${client.options.authStrategy.clientId} em ${Math.floor(delay / 60000)} minutos`);
     setTimeout(async () => {
         const response = await getIAResponse(text);
         client.sendMessage(to, response);
-        console.log(`Mensagem enviada: "${response}"`);
+        console.log(`📤 [${client.options.authStrategy.clientId}] enviou: "${response}"`);
     }, delay);
 }
 
-// Cria clientes
-function makeClient(id) {
+// Armazena os clientes
+const clients = {};
+
+// Cria os clientes dinamicamente
+CLIENT_IDS.forEach(id => {
     const client = new Client({
         authStrategy: new LocalAuth({ clientId: id }),
         puppeteer: { headless: true }
     });
 
-    client.on('qr', (qr) => qrcode.generate(qr, { small: true }));
-    client.on('ready', () => console.log(`🤖 Cliente ${id} pronto!`));
+    client.on('qr', qr => qrcode.generate(qr, { small: true }));
+    client.on('ready', () => {
+        console.log(`🤖 Cliente ${id} pronto!`);
 
-    return client;
-}
+        // Enviar primeira mensagem automaticamente
+        const pairId = PAIRS[id];
+        if (pairId && clients[pairId]) {
+            const to = `${clients[pairId].info.wid._serialized}`;
+            sendWithDelay(client, to, "Oi! Vamos conversar 🤖");
+        }
+    });
 
-const clientA = makeClient('A');
-const clientB = makeClient('B');
+    client.on('message', async msg => {
+        const myId = client.options.authStrategy.clientId;
+        const expectedSenderId = PAIRS[myId];
+        const expectedSender = clients[expectedSenderId]?.info?.wid?._serialized;
 
-// Recebendo mensagens e respondendo com IA
-clientA.on('message', async (msg) => {
-    if (!msg.fromMe && msg.from === wid(NUM_B)) {
-        sendWithDelay(clientA, wid(NUM_B), msg.body);
-    }
+        // Só responde se veio do par correspondente
+        if (!msg.fromMe && msg.from === expectedSender) {
+            sendWithDelay(client, msg.from, msg.body);
+        }
+    });
+
+    client.initialize();
+    clients[id] = client;
 });
-
-clientB.on('message', async (msg) => {
-    if (!msg.fromMe && msg.from === wid(NUM_A)) {
-        sendWithDelay(clientB, wid(NUM_A), msg.body);
-    }
-});
-
-// Inicializa clientes e inicia conversa
-clientA.initialize();
-clientB.initialize();
-clientA.on('ready', () => sendWithDelay(clientA, wid(NUM_B), "Oi B! Vamos conversar 🤖"));
