@@ -2,6 +2,7 @@ require('dotenv').config();
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+import fetch from "node-fetch";
 
 const CLIENT_IDS = ['A', 'B', 'C',];
 const readyClients = new Set();
@@ -13,26 +14,34 @@ const respondedMessages = new Set(); // Evita loop infinito
 const pendingMessages = new Set();
 
 
-// Instancia a IA Gemini
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+// Instancia a IA 
+async function chat() {
+  const response = await fetch("http://localhost:11434/api/generate", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      model: "phi3", // ou mistral, llama3.2 etc
+      prompt: "Explique como funciona o Ollama em 2 linhas"
+    })
+  });
 
-async function getIAResponse(userMessage) {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const reader = response.body.getReader();
+  let result = "";
 
-    const prompt = `
-        Responda de forma breve, clara e natural.
-        Use no máximo um parágrafo. Evite explicações longas.
-        Usuário: ${userMessage}
-    `;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    result += new TextDecoder().decode(value);
+  }
 
-    const result = await model.generateContent(prompt);
-    const response = result.response;
-    return response.text();
+  console.log(result);
 }
 
+chat();
+
 const randomDelay = () => {
-    const min = 1 * 60 * 1000;
-    const max = 10 * 60 * 1000;
+    const min = 15 * 1000;
+    const max = 40 * 1000;
     return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
