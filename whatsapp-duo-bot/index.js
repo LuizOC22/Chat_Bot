@@ -2,7 +2,7 @@ require('dotenv').config();
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-import fetch from "node-fetch";
+const fetch = require("node-fetch");
 
 const CLIENT_IDS = ['A', 'B', 'C',];
 const readyClients = new Set();
@@ -15,29 +15,30 @@ const pendingMessages = new Set();
 
 
 // Instancia a IA 
-async function chat() {
+async function getIAResponse(prompt) {
   const response = await fetch("http://localhost:11434/api/generate", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      model: "phi3", // ou mistral, llama3.2 etc
-      prompt: "Explique como funciona o Ollama em 2 linhas"
+      model: "phi3", // ou outro modelo que você baixou
+      prompt: prompt
     })
   });
 
-  const reader = response.body.getReader();
   let result = "";
+  const body = await response.text();
 
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    result += new TextDecoder().decode(value);
-  }
+  body.split('\n').forEach(line => {
+    if (line.trim()) {
+      try {
+        const obj = JSON.parse(line);
+        if (obj.response) result += obj.response;
+      } catch (e) {}
+    }
+  });
 
-  console.log(result);
+  return result;
 }
-
-chat();
 
 const randomDelay = () => {
     const min = 15 * 1000;
