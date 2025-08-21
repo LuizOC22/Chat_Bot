@@ -1,0 +1,30 @@
+2025/08/21-13:52:33.626 c3e4 Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/21-13:52:33.626 c3e4 Recovering log #197
+2025/08/21-13:52:33.823 c3e4 Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000197.log 
+2025/08/21-13:52:43.803 c47b Level-0 table #204: started
+2025/08/21-13:52:43.853 c47b Level-0 table #204: 609864 bytes OK
+2025/08/21-13:52:43.904 c47b Delete type=0 #197
+2025/08/21-13:52:43.905 c47b Manual compaction at level-0 from '\x001\x00\x00\x00' @ 72057594037927935 : 1 .. '\x002\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/21-13:52:47.279 c47a Compacting 1@1 + 3@2 files
+2025/08/21-13:52:47.451 c47a Generated table #205@1: 45153 keys, 2207655 bytes
+2025/08/21-13:52:47.802 c47a Generated table #206@1: 50594 keys, 2217795 bytes
+2025/08/21-13:52:47.864 c47a Generated table #207@1: 14213 keys, 625418 bytes
+2025/08/21-13:52:47.864 c47a Compacted 1@1 + 3@2 files => 5050868 bytes
+2025/08/21-13:52:47.914 c47a compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/08/21-13:52:47.915 c47a Delete type=2 #200
+2025/08/21-13:52:47.915 c47a Delete type=2 #199
+2025/08/21-13:52:47.915 c47a Delete type=2 #201
+2025/08/21-13:52:47.915 c47a Delete type=2 #204
+2025/08/21-14:08:21.559 c4ea Level-0 table #209: started
+2025/08/21-14:08:21.695 c4ea Level-0 table #209: 1002932 bytes OK
+2025/08/21-14:08:21.798 c4ea Delete type=0 #203
+2025/08/21-14:08:34.710 c51f Compacting 1@1 + 3@2 files
+2025/08/21-14:08:34.909 c51f Generated table #210@1: 45388 keys, 2206561 bytes
+2025/08/21-14:08:35.042 c51f Generated table #211@1: 51030 keys, 2217935 bytes
+2025/08/21-14:08:35.141 c51f Generated table #212@1: 15781 keys, 701353 bytes
+2025/08/21-14:08:35.141 c51f Compacted 1@1 + 3@2 files => 5125849 bytes
+2025/08/21-14:08:35.192 c51f compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/08/21-14:08:35.192 c51f Delete type=2 #209
+2025/08/21-14:08:35.192 c51f Delete type=2 #206
+2025/08/21-14:08:35.192 c51f Delete type=2 #207
+2025/08/21-14:08:35.192 c51f Delete type=2 #205

@@ -1,0 +1,31 @@
+2025/08/21-13:52:33.615 c3cf Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/21-13:52:33.616 c3cf Recovering log #231
+2025/08/21-13:52:33.688 c3cf Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000231.log 
+2025/08/21-13:53:00.314 c3ce Level-0 table #238: started
+2025/08/21-13:53:00.379 c3ce Level-0 table #238: 502952 bytes OK
+2025/08/21-13:53:00.427 c3ce Delete type=0 #231
+2025/08/21-13:53:00.428 c3ce Manual compaction at level-0 from '\x001\x00\x00\x00' @ 72057594037927935 : 1 .. '\x002\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/21-13:53:04.121 c3e7 Compacting 1@1 + 3@2 files
+2025/08/21-13:53:04.413 c3e7 Generated table #239@1: 47914 keys, 2196465 bytes
+2025/08/21-13:53:04.696 c3e7 Generated table #240@1: 43904 keys, 2217213 bytes
+2025/08/21-13:53:04.939 c3e7 Generated table #241@1: 55035 keys, 2199504 bytes
+2025/08/21-13:53:04.939 c3e7 Compacted 1@1 + 3@2 files => 6613182 bytes
+2025/08/21-13:53:04.997 c3e7 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/08/21-13:53:04.997 c3e7 Delete type=2 #234
+2025/08/21-13:53:04.997 c3e7 Delete type=2 #233
+2025/08/21-13:53:04.997 c3e7 Delete type=2 #235
+2025/08/21-13:53:04.997 c3e7 Delete type=2 #238
+2025/08/21-14:09:52.314 c4c2 Level-0 table #243: started
+2025/08/21-14:09:52.589 c4c2 Level-0 table #243: 1008538 bytes OK
+2025/08/21-14:09:52.753 c4c2 Delete type=0 #237
+2025/08/21-14:11:22.287 c4c2 Compacting 1@1 + 3@2 files
+2025/08/21-14:11:22.532 c4c2 Generated table #244@1: 47628 keys, 2197531 bytes
+2025/08/21-14:11:22.665 c4c2 Generated table #245@1: 43941 keys, 2216928 bytes
+2025/08/21-14:11:22.853 c4c2 Generated table #246@1: 54261 keys, 2219343 bytes
+2025/08/21-14:11:22.908 c4c2 Generated table #247@1: 3994 keys, 100517 bytes
+2025/08/21-14:11:22.908 c4c2 Compacted 1@1 + 3@2 files => 6734319 bytes
+2025/08/21-14:11:23.288 c4c2 compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/08/21-14:11:23.289 c4c2 Delete type=2 #243
+2025/08/21-14:11:23.289 c4c2 Delete type=2 #240
+2025/08/21-14:11:23.289 c4c2 Delete type=2 #239
+2025/08/21-14:11:23.289 c4c2 Delete type=2 #241

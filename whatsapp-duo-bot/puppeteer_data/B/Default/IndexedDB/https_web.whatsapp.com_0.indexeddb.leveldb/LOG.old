@@ -1,0 +1,30 @@
+2025/08/21-13:28:10.184 c07c Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/21-13:28:10.185 c07c Recovering log #220
+2025/08/21-13:28:10.191 c07c Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000220.log 
+2025/08/21-13:28:26.148 c07a Level-0 table #227: started
+2025/08/21-13:28:26.215 c07a Level-0 table #227: 63555 bytes OK
+2025/08/21-13:28:26.318 c07a Delete type=0 #220
+2025/08/21-13:28:26.323 c07a Manual compaction at level-0 from '\x000\x00\x00\x00' @ 72057594037927935 : 1 .. '\x001\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/21-13:28:30.511 c07a Compacting 1@1 + 3@2 files
+2025/08/21-13:28:31.818 c07a Generated table #228@1: 49154 keys, 2199406 bytes
+2025/08/21-13:28:32.727 c07a Generated table #229@1: 43161 keys, 2216511 bytes
+2025/08/21-13:28:33.420 c07a Generated table #230@1: 53203 keys, 2131559 bytes
+2025/08/21-13:28:33.420 c07a Compacted 1@1 + 3@2 files => 6547476 bytes
+2025/08/21-13:28:34.325 c07a compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/08/21-13:28:34.326 c07a Delete type=2 #227
+2025/08/21-13:28:34.326 c07a Delete type=2 #223
+2025/08/21-13:28:34.326 c07a Delete type=2 #222
+2025/08/21-13:28:34.326 c07a Delete type=2 #224
+2025/08/21-13:30:44.530 c050 Level-0 table #232: started
+2025/08/21-13:30:44.611 c050 Level-0 table #232: 832482 bytes OK
+2025/08/21-13:30:44.666 c050 Delete type=0 #226
+2025/08/21-13:35:02.420 c050 Compacting 1@1 + 3@2 files
+2025/08/21-13:35:02.628 c050 Generated table #233@1: 47849 keys, 2197297 bytes
+2025/08/21-13:35:02.784 c050 Generated table #234@1: 43905 keys, 2216863 bytes
+2025/08/21-13:35:02.940 c050 Generated table #235@1: 55013 keys, 2196031 bytes
+2025/08/21-13:35:02.940 c050 Compacted 1@1 + 3@2 files => 6610191 bytes
+2025/08/21-13:35:03.000 c050 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/08/21-13:35:03.001 c050 Delete type=2 #228
+2025/08/21-13:35:03.001 c050 Delete type=2 #230
+2025/08/21-13:35:03.001 c050 Delete type=2 #232
+2025/08/21-13:35:03.001 c050 Delete type=2 #229

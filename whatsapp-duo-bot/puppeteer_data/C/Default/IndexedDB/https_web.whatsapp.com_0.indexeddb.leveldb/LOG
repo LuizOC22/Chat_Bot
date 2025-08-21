@@ -1,0 +1,61 @@
+2025/08/21-13:52:33.606 c3da Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/C/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/21-13:52:33.606 c3da Recovering log #109
+2025/08/21-13:52:33.610 c3da Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/C/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000109.log 
+2025/08/21-13:53:04.362 c3eb Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/21-14:08:21.585 c53f Level-0 table #117: started
+2025/08/21-14:08:21.729 c53f Level-0 table #117: 1040846 bytes OK
+2025/08/21-14:08:21.815 c53f Delete type=0 #109
+2025/08/21-14:08:49.945 c57a Compacting 1@1 + 3@2 files
+2025/08/21-14:08:50.101 c57a Generated table #118@1: 43781 keys, 2201791 bytes
+2025/08/21-14:08:50.233 c57a Generated table #119@1: 50519 keys, 2219538 bytes
+2025/08/21-14:08:50.366 c57a Generated table #120@1: 25222 keys, 1121325 bytes
+2025/08/21-14:08:50.366 c57a Compacted 1@1 + 3@2 files => 5542654 bytes
+2025/08/21-14:08:50.416 c57a compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/08/21-14:08:50.416 c57a Delete type=2 #112
+2025/08/21-14:08:50.416 c57a Delete type=2 #114
+2025/08/21-14:08:50.416 c57a Delete type=2 #113
+2025/08/21-14:08:50.416 c57a Delete type=2 #117
+2025/08/21-14:18:09.040 c62c Level-0 table #122: started
+2025/08/21-14:18:09.134 c62c Level-0 table #122: 1161842 bytes OK
+2025/08/21-14:18:09.185 c62c Delete type=0 #116
+2025/08/21-14:18:09.189 c621 Compacting 1@1 + 3@2 files
+2025/08/21-14:18:09.350 c621 Generated table #123@1: 43207 keys, 2192025 bytes
+2025/08/21-14:18:09.505 c621 Generated table #124@1: 48055 keys, 2222276 bytes
+2025/08/21-14:18:09.649 c621 Generated table #125@1: 41221 keys, 1704370 bytes
+2025/08/21-14:18:09.649 c621 Compacted 1@1 + 3@2 files => 6118671 bytes
+2025/08/21-14:18:09.700 c621 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/08/21-14:18:09.726 c621 Level-0 table #127: started
+2025/08/21-14:18:09.822 c621 Level-0 table #127: 1226309 bytes OK
+2025/08/21-14:18:09.872 c621 Delete type=2 #122
+2025/08/21-14:18:09.872 c621 Delete type=0 #121
+2025/08/21-14:18:09.872 c621 Delete type=2 #118
+2025/08/21-14:18:09.872 c621 Delete type=2 #119
+2025/08/21-14:18:09.872 c621 Delete type=2 #120
+2025/08/21-14:18:09.880 c621 Compacting 1@1 + 3@2 files
+2025/08/21-14:18:10.060 c621 Generated table #128@1: 53574 keys, 2201184 bytes
+2025/08/21-14:18:10.248 c621 Generated table #129@1: 32024 keys, 2200239 bytes
+2025/08/21-14:18:10.414 c621 Generated table #130@1: 55326 keys, 2222191 bytes
+2025/08/21-14:18:10.480 c621 Generated table #131@1: 8711 keys, 267932 bytes
+2025/08/21-14:18:10.480 c621 Compacted 1@1 + 3@2 files => 6891546 bytes
+2025/08/21-14:18:10.531 c621 compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/08/21-14:18:10.531 c621 Delete type=2 #124
+2025/08/21-14:18:10.532 c621 Delete type=2 #127
+2025/08/21-14:18:10.532 c621 Delete type=2 #123
+2025/08/21-14:18:10.532 c621 Delete type=2 #125
+2025/08/21-14:18:10.534 c621 Level-0 table #133: started
+2025/08/21-14:18:10.620 c621 Level-0 table #133: 912684 bytes OK
+2025/08/21-14:18:10.671 c621 Delete type=0 #126
+2025/08/21-14:18:10.676 c621 Compacting 1@1 + 3@2 files
+2025/08/21-14:18:10.836 c621 Generated table #134@1: 59831 keys, 2206419 bytes
+2025/08/21-14:18:10.998 c621 Generated table #135@1: 32665 keys, 2199896 bytes
+2025/08/21-14:18:11.274 c621 Generated table #136@1: 53455 keys, 2220314 bytes
+2025/08/21-14:18:11.352 c621 Generated table #137@1: 7961 keys, 493664 bytes
+2025/08/21-14:18:11.353 c621 Compacted 1@1 + 3@2 files => 7120293 bytes
+2025/08/21-14:18:11.752 c621 compacted to: files[ 0 0 5 0 0 0 0 ]
+2025/08/21-14:18:11.752 c621 Delete type=2 #129
+2025/08/21-14:18:11.752 c621 Delete type=2 #130
+2025/08/21-14:18:11.752 c621 Delete type=2 #128
+2025/08/21-14:18:11.752 c621 Delete type=2 #133
+2025/08/21-14:18:11.754 c621 Level-0 table #139: started
+2025/08/21-14:18:11.842 c621 Level-0 table #139: 1001718 bytes OK
+2025/08/21-14:18:11.905 c621 Delete type=0 #132

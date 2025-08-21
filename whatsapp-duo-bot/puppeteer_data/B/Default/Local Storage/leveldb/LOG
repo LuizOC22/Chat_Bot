@@ -1,0 +1,6 @@
+2025/08/21-13:52:32.964 c3cf Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Local Storage/leveldb/MANIFEST-000001
+2025/08/21-13:52:32.964 c3cf Recovering log #3
+2025/08/21-13:52:32.976 c3cf Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Local Storage/leveldb/000003.log 
+2025/08/21-14:03:05.429 c4c2 Level-0 table #5: started
+2025/08/21-14:03:05.470 c4c2 Level-0 table #5: 19157 bytes OK
+2025/08/21-14:03:05.542 c4c2 Delete type=0 #3
