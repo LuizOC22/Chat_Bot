@@ -1,28 +1,45 @@
 require('dotenv').config();
+const fs = require('fs');
+const path = require('path');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const CLIENT_IDS = ['A', 'B', 'C',];
+// === CONFIGURAÇÕES ===
+const CLIENT_IDS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']; // IDs dos bots (clientId)
 const readyClients = new Set();
 const clients = {};
 const respondedMessages = new Set(); // Evita loop infinito
+const pendingMessages = new Set();   // Marca mensagens aguardando resposta
 
-
-// true se está aguardando resposta
-const pendingMessages = new Set();
-
-
-// Instancia a IA Gemini
+// === IA: Gemini ===
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 async function getIAResponse(userMessage) {
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const prompt = `
-        Responda de forma breve, clara e natural.
-        Use no máximo um parágrafo. Evite explicações longas.
-        Usuário: ${userMessage}
+        Você deve conversar de forma natural, como uma pessoa real, falando sobre cotidiano e estilo de vida.
+
+Objetivo:
+- Responda com mensagens curtas, descontraídas e variadas.
+- Traga leveza, naturalidade e evite repetir frases ou estruturas.
+- Comente de forma espontânea sobre a rotina, descanso, cansaço, distrações, comida, tempo, transporte, humor, etc.
+- Use gírias ou abreviações leves se quiser (tipo “kkk”, “to de boa”, “vdd”, “hj tá puxado”).
+- Não seja formal nem técnico. Fale como se estivesse no WhatsApp.
+- Nunca repita exatamente a mesma ideia ou expressão.
+- Varie o tom: pode ser animado, irônico, cansado, distraído, animado, relaxado… como alguém real.
+
+Exemplos de estilo:
+- “hj só queria um café e silêncio kkk”
+- “tô aqui enrolando pra sair da cama 😴”
+- “dia corrido, mas tamo indo…”
+- “nem vi a hora passar, o dia voou”
+- “finalmente sexta!!”
+
+Usuário: ${userMessage}
+
+
     `;
 
     const result = await model.generateContent(prompt);
@@ -30,6 +47,7 @@ async function getIAResponse(userMessage) {
     return response.text();
 }
 
+// === Funções auxiliares ===
 const randomDelay = () => {
     const min = 1 * 60 * 1000;
     const max = 10 * 60 * 1000;
@@ -44,7 +62,6 @@ async function sendWithDelay(client, to, text) {
 
     const key = `${fromId}_${toId}`;
 
-    // Se já existe uma pendência, não envia
     if (pendingMessages.has(key)) {
         console.log(`⏳ [${fromId}] já tem mensagem pendente para [${toId}]. Aguardando resposta...`);
         return;
@@ -62,9 +79,48 @@ async function sendWithDelay(client, to, text) {
     }, delay);
 }
 
+// === Reiniciar cliente após desconexão ===
+function restartClient(clientId) {
+    console.log(`♻️ Reiniciando cliente ${clientId}...`);
 
-// Cria os clientes dinamicamente
-CLIENT_IDS.forEach(id => {
+    const sessionPath = path.join(__dirname, 'puppeteer_data', clientId);
+
+    async function doRestart() {
+        // Limpa o client da memória
+        if (clients[clientId]) {
+            try {
+                await clients[clientId].destroy(); // Aguarda destruir o cliente
+                console.log(`🛑 Cliente ${clientId} destruído.`);
+            } catch (e) {
+                console.warn(`Erro ao destruir cliente ${clientId}:`, e.message);
+            }
+
+            delete clients[clientId];
+            readyClients.delete(clientId);
+        }
+
+        // Aguarda um tempo antes de apagar
+        setTimeout(() => {
+            try {
+                if (fs.existsSync(sessionPath)) {
+                    fs.rmSync(sessionPath, { recursive: true, force: true });
+                    console.log(`🧹 Sessão limpa para cliente ${clientId}`);
+                }
+            } catch (err) {
+                console.error(`❌ Erro ao apagar a pasta da sessão:`, err);
+            }
+
+            // Reinicializa o cliente
+            createClient(clientId);
+        }, 2000); // espera 2s para garantir que o Chrome fechou
+    }
+
+    doRestart();
+}
+
+
+// === Criar cliente WhatsApp ===
+function createClient(id) {
     const client = new Client({
         authStrategy: new LocalAuth({ clientId: id }),
         puppeteer: {
@@ -77,12 +133,17 @@ CLIENT_IDS.forEach(id => {
         }
     });
 
-    client.on('qr', qr => qrcode.generate(qr, { small: true }));
+    client.on('qr', qr => {
+        console.log(`📲 QR Code para cliente ${id}:`);
+        qrcode.generate(qr, { small: true });
+    });
 
     client.on('ready', () => {
-        console.log(`🤖 Cliente ${id} pronto!`);
-        clients[id] = client;
-        readyClients.add(id);
+        const wid = client.info.wid._serialized;
+    console.log(`🤖 Cliente ${id} conectado com número: ${wid}`);
+
+    clients[id] = client;
+    readyClients.add(id);
 
         if (readyClients.size === CLIENT_IDS.length) {
             console.log("🚀 Todos os bots estão prontos. Iniciando conversas...");
@@ -96,45 +157,50 @@ CLIENT_IDS.forEach(id => {
                         const receiver = clients[receiverId];
                         const receiverWid = receiver.info.wid._serialized;
 
-                        sendWithDelay(sender, receiverWid, "Oi! Vamos conversar 🤖");
+                        const mensagensIniciais = [
+                        "E aí, tudo certo por aí? 😄",
+                        "Fala aí! Bora trocar uma ideia?",
+                        "Tá on? Tava pensando em uns códigos aqui kkk",
+                        "Mano, me diz se já usou algum framework novo ultimamente?",
+                        "A IA tá doida ultimamente né? 😂"
+];
+
+                const msgAleatoria = mensagensIniciais[Math.floor(Math.random() * mensagensIniciais.length)];
+
+                sendWithDelay(sender, receiverWid, msgAleatoria);
+
                     }
                 });
             });
         }
     });
 
-
     client.on('message', async msg => {
-    const myId = client.options.authStrategy.clientId;
+        const myId = client.options.authStrategy.clientId;
 
-    // Ignora se já respondeu a esta mensagem
-    if (respondedMessages.has(msg.id._serialized)) return;
+        if (respondedMessages.has(msg.id._serialized)) return;
 
-    for (const [otherId, otherClient] of Object.entries(clients)) {
-        const senderWid = otherClient?.info?.wid?._serialized;
+        for (const [otherId, otherClient] of Object.entries(clients)) {
+            const senderWid = otherClient?.info?.wid?._serialized;
 
-        if (
-            otherId !== myId &&
-            senderWid === msg.from
-        ) {
-            const key = `${otherId}_${myId}`; // Remover pendência
-            pendingMessages.delete(key);
-
-            console.log(`💬 [${myId}] recebeu mensagem de [${otherId}]`);
-            respondedMessages.add(msg.id._serialized);
-
-            // Agora posso responder de volta
-            sendWithDelay(client, msg.from, msg.body);
-            break;
+            if (otherId !== myId && senderWid === msg.from) {
+                const key = `${otherId}_${myId}`;
+                pendingMessages.delete(key);
+                console.log(`💬 [${myId}] recebeu mensagem de [${otherId}]`);
+                respondedMessages.add(msg.id._serialized);
+                sendWithDelay(client, msg.from, msg.body);
+                break;
+            }
         }
-    }
-});
+    });
 
-
-      client.on('disconnected', (reason) => {
-            console.log(`❌ Cliente ${id} foi desconectado. Motivo: ${reason}`);
-        });
-
+    client.on('disconnected', (reason) => {
+        console.log(`❌ Cliente ${id} foi desconectado. Motivo: ${reason}`);
+        restartClient(id); // Recria automaticamente
+    });
 
     client.initialize();
-});
+}
+
+// === Inicializa todos os bots ===
+CLIENT_IDS.forEach(id => createClient(id));
