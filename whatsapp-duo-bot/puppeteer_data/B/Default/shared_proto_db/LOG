@@ -1,3 +1,2 @@
-2025/08/25-10:36:39.125 149d1 Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/shared_proto_db/MANIFEST-000001
-2025/08/25-10:36:39.125 149d1 Recovering log #3
-2025/08/25-10:36:39.125 149d1 Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/shared_proto_db/000003.log 
+2025/08/27-09:07:03.779 41304 Creating DB /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/shared_proto_db since it was missing.
+2025/08/27-09:07:04.200 41304 Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/shared_proto_db/MANIFEST-000001

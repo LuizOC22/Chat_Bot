@@ -6,7 +6,7 @@ const qrcode = require('qrcode-terminal');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // === CONFIGURAÇÕES ===
-const CLIENT_IDS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']; // IDs dos bots (clientId)
+const CLIENT_IDS = ['A', 'B', 'C','D']; // IDs dos bots (clientId)
 const readyClients = new Set();
 const clients = {};
 const respondedMessages = new Set(); // Evita loop infinito
@@ -16,7 +16,7 @@ const pendingMessages = new Set();   // Marca mensagens aguardando resposta
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 async function getIAResponse(userMessage) {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
     const prompt = `
         Você deve conversar de forma natural, como uma pessoa real, falando sobre cotidiano e estilo de vida.
@@ -72,12 +72,99 @@ async function sendWithDelay(client, to, text) {
 
     pendingMessages.add(key);
 
-    setTimeout(async () => {
-        const response = await getIAResponse(text);
-        client.sendMessage(to, response);
-        console.log(`📤 [${fromId}] enviou para [${toId}]: "${response}"`);
+    setTimeout(() => {
+        processDelayedResponse(client, fromId, toId, to, text, key);
     }, delay);
 }
+// salva conversa 
+async function processDelayedResponse(client, fromId, toId, to, text, key) {
+    try {
+        const history = addToChatHistory(fromId, toId, text);
+
+        const formattedHistory = history.map(h => {
+            return `${h.from === fromId ? "Você" : "Outro"}: ${h.message}`;
+        }).join("\n");
+
+        const prompt = `
+Você está conversando pelo WhatsApp de forma informal e descontraída. Responda de forma leve, com naturalidade, como se fosse um amigo.
+
+Aqui está a conversa recente:
+${formattedHistory}
+
+Continue a conversa respondendo a última mensagem: "${text}"
+        `;
+
+        let response;
+
+        try {
+            response = await getIAResponseSafe(prompt);
+        } catch (e) {
+            console.warn(`⚠️ IA indisponível. Usando mensagem antiga entre ${fromId} e ${toId}`);
+            response = getRandomPastMessage(fromId, toId) || "to sem palavras kkk";
+        }
+
+        await client.sendMessage(to, response);
+        console.log(`📤 [${fromId}] enviou para [${toId}]: "${response}"`);
+
+        addToChatHistory(fromId, toId, response);
+    } catch (error) {
+        console.error(`⚠️ Erro ao gerar resposta de ${fromId} para ${toId}:`, error.message);
+    } finally {
+        pendingMessages.delete(key);
+    }
+}
+
+
+const CHAT_HISTORY_FILE = './chat_history.json';
+
+function loadChatHistory() {
+    try {
+        const data = fs.readFileSync(CHAT_HISTORY_FILE, 'utf-8');
+        return JSON.parse(data);
+    } catch (e) {
+        return {};
+    }
+}
+
+function saveChatHistory(history) {
+    fs.writeFileSync(CHAT_HISTORY_FILE, JSON.stringify(history, null, 2));
+}
+
+function addToChatHistory(from, to, message) {
+    const history = loadChatHistory();
+    const key = `${from}_${to}`;
+    
+    if (!history[key]) history[key] = [];
+
+    history[key].push({
+        from,
+        to,
+        message,
+        timestamp: Date.now()
+    });
+
+
+    saveChatHistory(history);
+    return history[key];
+}
+
+function getRandomPastMessage(from, to) {
+    const history = loadChatHistory();
+    const key = `${from}_${to}`;
+
+    const pairHistory = history[key] || [];
+
+    // Filtra só mensagens enviadas POR 'from'
+    const sentMessages = pairHistory.filter(entry => entry.from === from);
+
+    if (sentMessages.length === 0) return null;
+
+    const randomIndex = Math.floor(Math.random() * sentMessages.length);
+    return sentMessages[randomIndex].message;
+}
+
+
+
 
 // === Reiniciar cliente após desconexão ===
 function restartClient(clientId) {
@@ -198,6 +285,9 @@ function createClient(id) {
         console.log(`❌ Cliente ${id} foi desconectado. Motivo: ${reason}`);
         restartClient(id); // Recria automaticamente
     });
+
+    
+
 
     client.initialize();
 }

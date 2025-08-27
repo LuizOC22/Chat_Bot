@@ -1,0 +1,1478 @@
+{
+  "C_A": [
+    {
+      "from": "C",
+      "to": "A",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756301150284
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756301152546
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, mas de boas. E você?  😄\n",
+      "timestamp": 1756302054816
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756305942344
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756305942909
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756306458524
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756306459070
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756307028712
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756307029191
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756307543222
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756307543761
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308198825
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756308199127
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308702038
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, mas de boas. E você?  😄\n",
+      "timestamp": 1756308702332
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309574525
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756309574984
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756310559859
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310560369
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756311008561
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, mas de boas. E você?  😄\n",
+      "timestamp": 1756311008967
+    }
+  ],
+  "C_B": [
+    {
+      "from": "C",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756301198534
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756301199426
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "E aí, camarada! Bora! Que ideia você tem em mente? 😉\n",
+      "timestamp": 1756301665924
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756301675444
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756305255099
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756306056252
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756306056482
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756306780718
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756306781271
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756307136269
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756307136734
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756307863866
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756307864185
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756308174829
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756308175241
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756309196638
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756309196834
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756310175322
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756310175971
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756310679228
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756310679667
+    }
+  ],
+  "D_B": [
+    {
+      "from": "D",
+      "to": "B",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756301318634
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "Pô, framework novo...  Tô numa vibe React ainda, sabe? Mas fiquei de olho num tal de Svelte, dizem que é  bem leve.  Ainda não testei, tô numa correria danada!  E você? Já se aventurou em algo diferente?\n",
+      "timestamp": 1756301320477
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "E aí, camarada! Bora! Que tal?  Tudo sussa por aí?\n",
+      "timestamp": 1756301877569
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "E aí, cara! Tudo numa boa, só um pouco cansado, sabe?  Trabalho tá puxado essa semana. E você? Bora o quê?  Conta aí!\n",
+      "timestamp": 1756301880088
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756303776454
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756305745087
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "E aí, cara! Tudo numa boa, só um pouco cansado, sabe?  Trabalho tá puxado essa semana. E você? Bora o quê?  Conta aí!\n",
+      "timestamp": 1756305745676
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756306398711
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756306399244
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756307360795
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756307361316
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756307905864
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "E aí, cara! Tudo numa boa, só um pouco cansado, sabe?  Trabalho tá puxado essa semana. E você? Bora o quê?  Conta aí!\n",
+      "timestamp": 1756307906512
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756308740209
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756308740470
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "E aí, cara! Tudo numa boa, só um pouco cansado, sabe?  Trabalho tá puxado essa semana. E você? Bora o quê?  Conta aí!\n",
+      "timestamp": 1756309713850
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756309714449
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756310150642
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756310151266
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756310800674
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310801204
+    }
+  ],
+  "C_D": [
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756301362453
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, cara! Tudo numa boa, só um pouco cansado, mas de boas!  E você? 😄\n",
+      "timestamp": 1756301363984
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, sabe?  Trabalho me deixou esgotado hoje! 😅\n",
+      "timestamp": 1756301847669
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Ah, sinto muito, parça!  Trabalho cansativo é tenso, né?  Que tal um bom filme e um lanche pra relaxar?  🍕\n\n\nOu, sei lá, um banho bem quente?  🛀😴\n",
+      "timestamp": 1756301849099
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756305998743
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, cara! Tudo numa boa, só um pouco cansado, mas de boas!  E você? 😄\n",
+      "timestamp": 1756305998975
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756306482645
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756306483289
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756307225298
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756307225961
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, sabe?  Trabalho me deixou esgotado hoje! 😅\n",
+      "timestamp": 1756307817851
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756307818105
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308337489
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756308337682
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309041121
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Ah, sinto muito, parça!  Trabalho cansativo é tenso, né?  Que tal um bom filme e um lanche pra relaxar?  🍕\n\n\nOu, sei lá, um banho bem quente?  🛀😴\n",
+      "timestamp": 1756309041473
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756309544039
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756309544684
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310197256
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310197762
+    }
+  ],
+  "B_D": [
+    {
+      "from": "B",
+      "to": "D",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756301382131
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "E aí, camarada! Bora! Que tal?  Tudo sussa por aí?\n",
+      "timestamp": 1756301383743
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "E aí, cara! Tudo numa boa, só um pouco cansado, sabe?  Trabalho tá puxado essa semana. E você? Bora o quê?  Conta aí!\n",
+      "timestamp": 1756302389202
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756306191221
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756306191934
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756306912013
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756306912630
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756307813099
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756307813381
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "E aí, cara! Tudo numa boa, só um pouco cansado, sabe?  Trabalho tá puxado essa semana. E você? Bora o quê?  Conta aí!\n",
+      "timestamp": 1756308337134
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756308337495
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756309315960
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "E aí, cara! Tudo numa boa, só um pouco cansado, sabe?  Trabalho tá puxado essa semana. E você? Bora o quê?  Conta aí!\n",
+      "timestamp": 1756309316437
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756309805165
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756309805584
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756310610126
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756310610451
+    }
+  ],
+  "B_A": [
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756301401108
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Putz, framework novo... tô numa vibe React ainda, sabe?  Mas fiquei sabendo de um, o Svelte, que dizem ser  show de bola.  Ainda não testei, tô meio atolado em projetos aqui.  E você?  Já se aventurou em algo diferente?\n",
+      "timestamp": 1756301402346
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, viu?  😅\n",
+      "timestamp": 1756301752267
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756303679032
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756305866114
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Putz, framework novo... tô numa vibe React ainda, sabe?  Mas fiquei sabendo de um, o Svelte, que dizem ser  show de bola.  Ainda não testei, tô meio atolado em projetos aqui.  E você?  Já se aventurou em algo diferente?\n",
+      "timestamp": 1756305866802
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756306330524
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756306331077
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756306947669
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, viu?  😅\n",
+      "timestamp": 1756306948194
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, viu?  😅\n",
+      "timestamp": 1756307602585
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756307603219
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308254882
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308255144
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756308722875
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756308723137
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, viu?  😅\n",
+      "timestamp": 1756309082761
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309083167
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756309467160
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756309467780
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310622971
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310624060
+    }
+  ],
+  "A_D": [
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756301483263
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Pô, mano!  Ainda não, tô numa vibe mais \"consolidar o que já sei\" ultimamente, sabe?  Mas tô de olho no Flutter, parece ser massa.  E você?  Já se aventurou em algo novo?\n",
+      "timestamp": 1756301484594
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Vdd!  Ontem ela me deu uma receita de bolo com… palitos de fósforo.  😂\n",
+      "timestamp": 1756301857310
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, sério?! Que doida!  Ela tava de sacanagem, né?  😂\n",
+      "timestamp": 1756301862650
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756303684397
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756305864640
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, sério?! Que doida!  Ela tava de sacanagem, né?  😂\n",
+      "timestamp": 1756305865073
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Vdd!  Ontem ela me deu uma receita de bolo com… palitos de fósforo.  😂\n",
+      "timestamp": 1756306544479
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756306545065
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756307206623
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756307207183
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Vdd!  Ontem ela me deu uma receita de bolo com… palitos de fósforo.  😂\n",
+      "timestamp": 1756308229581
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756308229957
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, sério?! Que doida!  Ela tava de sacanagem, né?  😂\n",
+      "timestamp": 1756308725283
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308725573
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756309304255
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309304498
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309927660
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756309928150
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Tá on? Tava pensando em uns códigos aqui kkk",
+      "timestamp": 1756310872836
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756310873476
+    }
+  ],
+  "D_A": [
+    {
+      "from": "D",
+      "to": "A",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756301520175
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Vdd!  Ontem ela me deu uma receita de bolo com… palitos de fósforo.  😂\n",
+      "timestamp": 1756301521567
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, sério?! Que doida!  Ela tava de sacanagem, né?  😂\n",
+      "timestamp": 1756302232000
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Tá on? Tava pensando em uns códigos aqui kkk",
+      "timestamp": 1756306008594
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Vdd!  Ontem ela me deu uma receita de bolo com… palitos de fósforo.  😂\n",
+      "timestamp": 1756306008875
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756306941566
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756306942171
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756307761458
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Vdd!  Ontem ela me deu uma receita de bolo com… palitos de fósforo.  😂\n",
+      "timestamp": 1756307761987
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756308456348
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, sério?! Que doida!  Ela tava de sacanagem, né?  😂\n",
+      "timestamp": 1756308456611
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308908208
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756308908678
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309474554
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309475050
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756310312085
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Tá on? Tava pensando em uns códigos aqui kkk",
+      "timestamp": 1756310312652
+    }
+  ],
+  "B_C": [
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756301541075
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "E aí, camarada! Bora! Que ideia você tem em mente? 😉\n",
+      "timestamp": 1756301542178
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756301948607
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756305277101
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756305779807
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756305780499
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756306473810
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756306474455
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756306908038
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756306908628
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756307518487
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756307519008
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756308023722
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756308024071
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756308691629
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756308691995
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756309581729
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756309582165
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756310561812
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756310562078
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Putz, ideia...  Ainda tô pensando!  😅 Que tal um rolê no parque?  Ou prefere algo mais agitado? 🤔\n",
+      "timestamp": 1756310902864
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "message": "Verdade!  Tipo, tá criando até poesia agora, hahaha!\n",
+      "timestamp": 1756310903443
+    }
+  ],
+  "A_B": [
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756301580099
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, viu?  😅\n",
+      "timestamp": 1756301581508
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756306028508
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756306028782
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756306405881
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756306406428
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, viu?  😅\n",
+      "timestamp": 1756307240479
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, viu?  😅\n",
+      "timestamp": 1756307241005
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756308089132
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308089558
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308634106
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756308634455
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756308981877
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, viu?  😅\n",
+      "timestamp": 1756308982315
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309165292
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756309165546
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756310037465
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310037746
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310893932
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, viu?  😅\n",
+      "timestamp": 1756310894533
+    }
+  ],
+  "D_C": [
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756301582054
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, sabe?  Trabalho me deixou esgotado hoje! 😅\n",
+      "timestamp": 1756301583331
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Ah, sinto muito, parça!  Trabalho cansativo é tenso, né?  Que tal um bom filme e um lanche pra relaxar?  🍕\n\n\nOu, sei lá, um banho bem quente?  🛀😴\n",
+      "timestamp": 1756301977541
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756305390861
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756306192977
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756306193565
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756306677409
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756306678084
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756307565492
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, sabe?  Trabalho me deixou esgotado hoje! 😅\n",
+      "timestamp": 1756307566046
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308149314
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308149677
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756308558683
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308558997
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Ah, sinto muito, parça!  Trabalho cansativo é tenso, né?  Que tal um bom filme e um lanche pra relaxar?  🍕\n\n\nOu, sei lá, um banho bem quente?  🛀😴\n",
+      "timestamp": 1756309195551
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756309196052
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756309967132
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309967373
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310469655
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756310469890
+    }
+  ],
+  "A_C": [
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756301634789
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, mas de boas. E você?  😄\n",
+      "timestamp": 1756301642507
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756305940144
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756305940529
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756306372787
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756306373329
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756306846792
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756306847362
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756307229014
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756307229528
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756307656205
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756307656491
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756308491113
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756308491363
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, mas de boas. E você?  😄\n",
+      "timestamp": 1756309035922
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756309036326
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756310135695
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756310136133
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756310871468
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "message": "E aí, cara! Bora! Que tal?  Tudo bem por aí?\n",
+      "timestamp": 1756310871899
+    }
+  ]
+}
