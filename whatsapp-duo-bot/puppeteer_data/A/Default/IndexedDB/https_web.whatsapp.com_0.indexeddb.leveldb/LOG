@@ -1,27 +1,14 @@
-2025/08/27-11:39:56.718 46426 Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/27-11:39:56.718 46426 Recovering log #83
-2025/08/27-11:39:56.746 46426 Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000083.log 
-2025/08/27-11:40:02.585 464b7 Level-0 table #89: started
-2025/08/27-11:40:02.663 464b7 Level-0 table #89: 262440 bytes OK
-2025/08/27-11:40:02.737 464b7 Delete type=0 #83
-2025/08/27-11:40:02.737 464b7 Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/27-11:40:11.696 463e4 Compacting 1@1 + 2@2 files
-2025/08/27-11:40:12.977 463e4 Generated table #90@1: 36407 keys, 2207981 bytes
-2025/08/27-11:40:13.797 463e4 Generated table #91@1: 70076 keys, 2166386 bytes
-2025/08/27-11:40:13.797 463e4 Compacted 1@1 + 2@2 files => 4374367 bytes
-2025/08/27-11:40:13.901 463e4 compacted to: files[ 0 0 2 0 0 0 0 ]
-2025/08/27-11:40:13.901 463e4 Delete type=2 #85
-2025/08/27-11:40:13.901 463e4 Delete type=2 #89
-2025/08/27-11:40:13.901 463e4 Delete type=2 #86
-2025/08/27-12:23:19.875 478d1 Level-0 table #93: started
-2025/08/27-12:23:19.949 478d1 Level-0 table #93: 1266186 bytes OK
-2025/08/27-12:23:20.014 478d1 Delete type=0 #88
-2025/08/27-12:23:50.551 478d1 Compacting 1@1 + 2@2 files
-2025/08/27-12:23:50.692 478d1 Generated table #94@1: 39507 keys, 2208117 bytes
-2025/08/27-12:23:50.852 478d1 Generated table #95@1: 67355 keys, 2216873 bytes
-2025/08/27-12:23:50.886 478d1 Generated table #96@1: 5240 keys, 115627 bytes
-2025/08/27-12:23:50.886 478d1 Compacted 1@1 + 2@2 files => 4540617 bytes
-2025/08/27-12:23:50.937 478d1 compacted to: files[ 0 0 3 0 0 0 0 ]
-2025/08/27-12:23:50.937 478d1 Delete type=2 #93
-2025/08/27-12:23:50.937 478d1 Delete type=2 #90
-2025/08/27-12:23:50.937 478d1 Delete type=2 #91
+2025/08/28-13:33:19.100 89a9b Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/28-13:33:19.101 89a9b Recovering log #241
+2025/08/28-13:33:19.686 89a9b Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000241.log 
+2025/08/28-13:34:21.029 89a98 Level-0 table #249: started
+2025/08/28-13:34:22.384 89a98 Level-0 table #249: 300369 bytes OK
+2025/08/28-13:34:24.640 89a98 Delete type=0 #241
+2025/08/28-13:34:24.643 89a98 Manual compaction at level-0 from '\x00)\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/28-13:34:32.788 89c56 Compacting 1@1 + 4@2 files
+2025/08/28-13:34:37.637 89c56 Generated table #250@1: 88059 keys, 2239089 bytes
+2025/08/28-13:35:10.605 89c56 Generated table #251@1: 43945 keys, 2224144 bytes
+2025/08/28-13:35:34.303 89c56 Generated table #252@1: 43453 keys, 2204704 bytes
+2025/08/28-13:35:37.357 89c56 Generated table #253@1: 54607 keys, 1185482 bytes
+2025/08/28-13:35:37.357 89c56 Compacted 1@1 + 4@2 files => 7853419 bytes
+2025/08/28-13:35:38.536 89c56 compacted to: files[ 0 0 4 0 0 0 0 ]

@@ -1,3 +1,2 @@
-2025/08/27-11:31:31.705 45e42 Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Local Storage/leveldb/MANIFEST-000001
-2025/08/27-11:31:31.706 45e42 Recovering log #4
-2025/08/27-11:31:31.706 45e42 Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Local Storage/leveldb/000004.log 
+2025/08/28-10:30:17.709 8737b Creating DB /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Local Storage/leveldb since it was missing.
+2025/08/28-10:30:18.872 8737b Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Local Storage/leveldb/MANIFEST-000001

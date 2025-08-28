@@ -1,3 +1,2 @@
-2025/08/27-11:31:33.554 45e40 Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Session Storage/MANIFEST-000001
-2025/08/27-11:31:33.554 45e40 Recovering log #3
-2025/08/27-11:31:33.572 45e40 Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Session Storage/000003.log 
+2025/08/28-10:30:22.725 8737b Creating DB /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Session Storage since it was missing.
+2025/08/28-10:30:24.937 8737b Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/B/Default/Session Storage/MANIFEST-000001

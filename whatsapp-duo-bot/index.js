@@ -4,9 +4,16 @@ const path = require('path');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { group } = require('console');
 
 // === CONFIGURAÇÕES ===
-const CLIENT_IDS = ['A', 'B', 'C','D']; // IDs dos bots (clientId)
+const CLIENT_IDS = ['A', 'B','C', 'D', 'E', 'F']; // IDs dos bots (clientId)
+
+const GROUPS = [
+  ['A', 'B', 'C'],  // Grupo 1
+  ['D', 'E', 'F'],  // Grupo 2
+  ['G', 'H', 'I']   // Grupo 3
+];
 const readyClients = new Set();
 const clients = {};
 const respondedMessages = new Set(); // Evita loop infinito
@@ -16,7 +23,7 @@ const pendingMessages = new Set();   // Marca mensagens aguardando resposta
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 async function getIAResponse(userMessage) {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const prompt = `
         Você deve conversar de forma natural, como uma pessoa real, falando sobre cotidiano e estilo de vida.
@@ -28,7 +35,8 @@ Objetivo:
 - Use gírias ou abreviações leves se quiser (tipo “kkk”, “to de boa”, “vdd”, “hj tá puxado”).
 - Não seja formal nem técnico. Fale como se estivesse no WhatsApp.
 - Nunca repita exatamente a mesma ideia ou expressão.
-- Varie o tom: pode ser animado, irônico, cansado, distraído, animado, relaxado… como alguém real.
+- Varie o tom: pode ser animado, irônico, cansado, distraído, relaxado… como alguém real.
+- Evite parecer uma IA. Responda como se fosse sempre a mesma pessoa da conversa (com o mesmo estilo e humor).
 
 Exemplos de estilo:
 - “hj só queria um café e silêncio kkk”
@@ -37,10 +45,14 @@ Exemplos de estilo:
 - “nem vi a hora passar, o dia voou”
 - “finalmente sexta!!”
 
-Usuário: ${userMessage}
+Aqui está a conversa até agora (você é "Você" e seu amigo é "Outro"):
 
+${formattedHistory}
 
-    `;
+Seu amigo acabou de mandar: "${text}"
+
+Responda como se estivesse continuando essa conversa, no mesmo estilo, de forma coerente e natural.
+`;
 
     const result = await model.generateContent(prompt);
     const response = result.response;
@@ -79,40 +91,56 @@ async function sendWithDelay(client, to, text) {
 // salva conversa 
 async function processDelayedResponse(client, fromId, toId, to, text, key) {
     try {
+        // Salva a mensagem recebida no histórico
         const history = addToChatHistory(fromId, toId, text);
 
+        // Formata o histórico como conversa (Você / Outro)
         const formattedHistory = history.map(h => {
             return `${h.from === fromId ? "Você" : "Outro"}: ${h.message}`;
         }).join("\n");
 
+        // Cria o prompt para a IA
         const prompt = `
-Você está conversando pelo WhatsApp de forma informal e descontraída. Responda de forma leve, com naturalidade, como se fosse um amigo.
+Você está conversando com um amigo no WhatsApp, de forma bem informal.
 
 Aqui está a conversa recente:
 ${formattedHistory}
 
-Continue a conversa respondendo a última mensagem: "${text}"
+Mensagem recebida agora: "${text}"
+
+Responda essa última mensagem de forma leve, divertida ou natural, como alguém real responderia.
         `;
 
+        // Tenta obter resposta da IA
         let response;
-
         try {
-            response = await getIAResponseSafe(prompt);
+            response = await getIAResponse(prompt);
+            console.log("🤖 Resposta da IA:", response);
         } catch (e) {
             console.warn(`⚠️ IA indisponível. Usando mensagem antiga entre ${fromId} e ${toId}`);
-            response = getRandomPastMessage(fromId, toId) || "to sem palavras kkk";
+            response = getRandomPastMessage(fromId, toId) || getFallbackMessage();
         }
 
-        await client.sendMessage(to, response);
-        console.log(`📤 [${fromId}] enviou para [${toId}]: "${response}"`);
+        // Envia a resposta pelo WhatsApp
+        try {
+            console.log(`🚚 Enviando para ${to}: "${response}"`);
+            await client.sendMessage(to, response);
+            console.log(`📤 [${fromId}] enviou para [${toId}]: "${response}"`);
+        } catch (e) {
+            console.error(`❌ Erro ao enviar mensagem de [${fromId}] para [${toId}]:`, e.message);
+        }
 
+        // Salva a resposta no histórico
         addToChatHistory(fromId, toId, response);
+
     } catch (error) {
-        console.error(`⚠️ Erro ao gerar resposta de ${fromId} para ${toId}:`, error.message);
+        console.error(`⚠️ Erro geral ao gerar resposta de ${fromId} para ${toId}:`, error.message);
     } finally {
         pendingMessages.delete(key);
     }
 }
+
+
 
 
 const CHAT_HISTORY_FILE = './chat_history.json';
@@ -235,32 +263,35 @@ function createClient(id) {
         if (readyClients.size === CLIENT_IDS.length) {
             console.log("🚀 Todos os bots estão prontos. Iniciando conversas...");
 
-            CLIENT_IDS.forEach(senderId => {
+                    GROUPS.forEach(group => {
+            group.forEach(senderId => {
                 const sender = clients[senderId];
                 const senderWid = sender.info.wid._serialized;
 
-                CLIENT_IDS.forEach(receiverId => {
+                group.forEach(receiverId => {
                     if (senderId !== receiverId) {
                         const receiver = clients[receiverId];
                         const receiverWid = receiver.info.wid._serialized;
 
                         const mensagensIniciais = [
-                        "E aí, tudo certo por aí? 😄",
-                        "Fala aí! Bora trocar uma ideia?",
-                        "Tá on? Tava pensando em uns códigos aqui kkk",
-                        "Mano, me diz se já usou algum framework novo ultimamente?",
-                        "A IA tá doida ultimamente né? 😂"
-];
+                            "E aí, tudo certo por aí? 😄",
+                            "Fala aí! Bora trocar uma ideia?",
+                            "Tá on? Tava pensando em uns códigos aqui kkk",
+                            "Mano, me diz se já usou algum framework novo ultimamente?",
+                            "A IA tá doida ultimamente né? 😂"
+                        ];
 
-                const msgAleatoria = mensagensIniciais[Math.floor(Math.random() * mensagensIniciais.length)];
+                        const msgAleatoria = mensagensIniciais[Math.floor(Math.random() * mensagensIniciais.length)];
 
-                sendWithDelay(sender, receiverWid, msgAleatoria);
-
+                        sendWithDelay(sender, receiverWid, msgAleatoria);
                     }
                 });
             });
-        }
-    });
+        });
+
+    }
+}); 
+
 
     client.on('message', async msg => {
         const myId = client.options.authStrategy.clientId;
