@@ -1,14 +1,13 @@
-2025/08/28-13:33:19.100 89a9b Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/28-13:33:19.101 89a9b Recovering log #241
-2025/08/28-13:33:19.686 89a9b Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000241.log 
-2025/08/28-13:34:21.029 89a98 Level-0 table #249: started
-2025/08/28-13:34:22.384 89a98 Level-0 table #249: 300369 bytes OK
-2025/08/28-13:34:24.640 89a98 Delete type=0 #241
-2025/08/28-13:34:24.643 89a98 Manual compaction at level-0 from '\x00)\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/28-13:34:32.788 89c56 Compacting 1@1 + 4@2 files
-2025/08/28-13:34:37.637 89c56 Generated table #250@1: 88059 keys, 2239089 bytes
-2025/08/28-13:35:10.605 89c56 Generated table #251@1: 43945 keys, 2224144 bytes
-2025/08/28-13:35:34.303 89c56 Generated table #252@1: 43453 keys, 2204704 bytes
-2025/08/28-13:35:37.357 89c56 Generated table #253@1: 54607 keys, 1185482 bytes
-2025/08/28-13:35:37.357 89c56 Compacted 1@1 + 4@2 files => 7853419 bytes
-2025/08/28-13:35:38.536 89c56 compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/09/01-11:33:26.077 837c Reusing MANIFEST /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/01-11:33:26.077 837c Recovering log #59
+2025/09/01-11:33:26.132 837c Reusing old log /home/altweb/Chat_Bot/whatsapp-duo-bot/./puppeteer_data/A/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000059.log 
+2025/09/01-11:33:38.347 84a3 Level-0 table #64: started
+2025/09/01-11:33:41.135 84a3 Level-0 table #64: 163606 bytes OK
+2025/09/01-11:33:41.889 84a3 Delete type=0 #59
+2025/09/01-11:33:41.890 84a3 Manual compaction at level-0 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/01-11:33:49.745 84a3 Compacting 1@1 + 1@2 files
+2025/09/01-11:33:49.919 84a3 Generated table #65@1: 19328 keys, 676268 bytes
+2025/09/01-11:33:49.919 84a3 Compacted 1@1 + 1@2 files => 676268 bytes
+2025/09/01-11:33:49.969 84a3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/01-11:33:49.969 84a3 Delete type=2 #64
+2025/09/01-11:33:49.969 84a3 Delete type=2 #61

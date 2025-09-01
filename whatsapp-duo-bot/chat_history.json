@@ -5387,6 +5387,42 @@
       "to": "D",
       "message": "E aí, tudo certo por aí? 😄",
       "timestamp": 1756385746592
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756735549984
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Blz e você?  O dia foi puxado, tô morto de cansaço! 😴",
+      "timestamp": 1756735551274
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Blz e você?  O dia tá um pouco looongo, preciso de um café urgente! ☕",
+      "timestamp": 1756736305237
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Vdd! Hj tá puxado!  Tô quase caindo de sono aqui,  mas ainda tenho umas coisas pra fazer. 😫  Depois te conto tudo, preciso de um café também, urgente! ☕😅",
+      "timestamp": 1756736306650
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756737385813
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, cara! Que tal?  Tô quase virando zumbi aqui, mas vamos lá!  Conta tudo!  ☕",
+      "timestamp": 1756737387188
     }
   ],
   "B_D": [
@@ -8061,6 +8097,42 @@
       "to": "A",
       "message": "A IA tá doida ultimamente né? 😂",
       "timestamp": 1756383369207
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756735680467
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Blz, parça!  Tô quase morrendo de fome, já almocei? Nem sei mais kkk.  E aí, como tá a sua semana?",
+      "timestamp": 1756735682360
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Putz, tô na mesma!  Dia infernal, nem vi a hora passar.  Semana tá corrida demais,  mas sexta já tá aí, né?  Kkkk.  Já pensou num açaí pra dar uma animada? 😋",
+      "timestamp": 1756736565836
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Verdade! Açaí seria perfeito!  🤤  Só de pensar já me deu uma energia.  Mas tô tão atolado que nem sei se consigo escapar do trampo hj kkk.  E você, conseguiu almoçar decentemente pelo menos?",
+      "timestamp": 1756736568063
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756737357859
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, cara! Tudo numa boa por aqui, só um pouco no esquema \"zumbi\" ainda, sabe?  😴  Mas já tô quase lá!  Responde aquela pergunta dos frameworks antes que eu me esqueça de novo, rs.  E você, como tá a luta contra o cansaço?",
+      "timestamp": 1756737360174
     }
   ],
   "A_D": [
@@ -13463,6 +13535,54 @@
       "to": "B",
       "message": "Fala aí! Bora trocar uma ideia?",
       "timestamp": 1756383505290
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Tá on? Tava pensando em uns códigos aqui kkk",
+      "timestamp": 1756735397960
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Eae, parça!  Ainda vivo, kkk.  Tava quase dormindo no teclado!  Que códigos são esses?  Algo desafiador? 🤔",
+      "timestamp": 1756735399327
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Blz, parça!  Tô quase morrendo de fome, já almocei? Nem sei mais kkk.  E aí, como tá a sua semana?",
+      "timestamp": 1756736117230
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Putz, tô na mesma!  Dia infernal, nem vi a hora passar.  Semana tá corrida demais,  mas sexta já tá aí, né?  Kkkk.  Já pensou num açaí pra dar uma animada? 😋",
+      "timestamp": 1756736128754
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Verdade! Açaí seria perfeito!  🤤  Só de pensar já me deu uma energia.  Mas tô tão atolado que nem sei se consigo escapar do trampo hj kkk.  E você, conseguiu almoçar decentemente pelo menos?",
+      "timestamp": 1756736753174
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Cara, almocei um miojo rapidinho, sabe?  A correria não deixou muito tempo pra gourmet kkkk. Mas amanhã prometo um almoço digno de rei!  E você, qual seu plano B pra escapar desse atoleiro?  Pizza? Kkkk.",
+      "timestamp": 1756736754852
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Tá on? Tava pensando em uns códigos aqui kkk",
+      "timestamp": 1756737515949
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Eae, parça!  Ainda vivo, kkk.  Tava quase dormindo no teclado!  Que códigos são esses?  Algo desafiador? 🤔",
+      "timestamp": 1756737517578
     }
   ],
   "D_C": [
@@ -14761,6 +14881,42 @@
       "to": "C",
       "message": "Mano, me diz se já usou algum framework novo ultimamente?",
       "timestamp": 1756385613592
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756735798688
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Blz e você?  O dia tá um pouco looongo, preciso de um café urgente! ☕",
+      "timestamp": 1756735800691
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Vdd! Hj tá puxado!  Tô quase caindo de sono aqui,  mas ainda tenho umas coisas pra fazer. 😫  Depois te conto tudo, preciso de um café também, urgente! ☕😅",
+      "timestamp": 1756736739764
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Kkkk, tô igual!  Esse calor não ajuda em nada, né?  🥵\n\nMeu cérebro tá processando informação em câmera lenta hj... 🐌\n\nJá to imaginando minha cama me esperando...  😴\n\nSó mais um pouco...  força guerreiro! 💪\n\nDepois te conto como foi meu dia tbm, a gente combina de tomar aquele café amanhã?  ☕😎",
+      "timestamp": 1756736741609
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756737553585
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Kkkkk, vdd!  Ela pirou de vez! 😂  Será que tão fazendo alguma atualização? 🤔",
+      "timestamp": 1756737555746
     }
   ],
   "A_C": [
