@@ -5423,6 +5423,30 @@
       "to": "D",
       "message": "E aí, cara! Que tal?  Tô quase virando zumbi aqui, mas vamos lá!  Conta tudo!  ☕",
       "timestamp": 1756737387188
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756929014497
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "Kkkkk, vdd!  Ela tá meio pirada hoje, hein?  Tô quase acreditando que ela vai dominar o mundo! 😂",
+      "timestamp": 1756929016743
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, tudo certo por aí? 😄",
+      "timestamp": 1756931277622
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "message": "E aí, parça! Tudo numa boa, só um pouco cansado, mas de boas!  E você? 😄",
+      "timestamp": 1756931278811
     }
   ],
   "B_D": [
@@ -8133,6 +8157,30 @@
       "to": "A",
       "message": "E aí, cara! Tudo numa boa por aqui, só um pouco no esquema \"zumbi\" ainda, sabe?  😴  Mas já tô quase lá!  Responde aquela pergunta dos frameworks antes que eu me esqueça de novo, rs.  E você, como tá a luta contra o cansaço?",
       "timestamp": 1756737360174
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756928971654
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, cara! Tudo sussa por aqui, só um pouco na luta contra o sono ainda kkk. Mas já tô quase 100%!  Responde essa do framework aí, antes que eu me esqueça de novo, hahaha.  E você, como tá a batalha contra o cansaço?  Já almoçou?",
+      "timestamp": 1756928973077
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "Tá on? Tava pensando em uns códigos aqui kkk",
+      "timestamp": 1756931256693
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "message": "E aí, parça!  Ainda vivo, kkk.  Tava aqui quase dormindo no teclado também!  Que códigos são esses?  Algo desafiador?  Me conta!  E o almoço?  Já conseguiu escapar pra comer alguma coisa decente?",
+      "timestamp": 1756931258537
     }
   ],
   "A_D": [
@@ -9521,6 +9569,258 @@
       "to": "D",
       "message": "E aí, tudo certo por aí? 😄",
       "timestamp": 1756385815540
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756931867441
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, vdd!  Hj tá parecendo que ela tá em modo \"aleatório total\"! 😂",
+      "timestamp": 1756931869404
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, vdd!  To até com dor de cabeça de tanto código.  Hj tá puxado!",
+      "timestamp": 1756932527978
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Ah, que saco, né?  Eu tô igual!  Já almocei? Nem sei! 🍔😴\n\nDepois te conto se eu resolvi aquele bug chato, preciso de um café antes, urgente! ☕",
+      "timestamp": 1756932530059
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, tô igualzinho!  Esse calor não ajuda em nada, né? 🥵  \n\nPreciso de uma vitamina C pra sobreviver a essa tarde! 🍊\n\n\nSó pensando em pizza agora… 🍕🤤",
+      "timestamp": 1756933494086
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Eita, vdd!  O calor tá infernal!  🥵  Pizza e Netflix seria a solução ideal agora, né?  😅\n\nTo quase pedindo um delivery, sério!  🍕🤤",
+      "timestamp": 1756933496832
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, fala sério! Já pedi a minha! 🍕😂  Chega aí em 1 hora, segundo o app.  Esse trânsito tá um caos hj! 🚗🤬",
+      "timestamp": 1756934301974
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Eita, que rapidez!  😂  Aqui tá um inferno também, parece que os carros estão todos grudados uns nos outros! 🐌\n\nJá tô imaginando a pizza... Que delícia! 😋🤤",
+      "timestamp": 1756934303496
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, vdd!  Trânsito infernal, né?  Mas pizza chegando... a vida melhora!  🍕🚀",
+      "timestamp": 1756935356558
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Aham, tô quase dormindo em cima do teclado aqui! 😴🍕  Falando em pizza, qual sabor vc pediu?  A minha vai ser quatro queijos, amo! 😋",
+      "timestamp": 1756935358242
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Quatro queijos? Chique!  A minha é calabresa, a clássica kkk.  Mas tô pensando em pedir um doce de sobremesa, tipo um brigadeiro de colher...🤤  Já estou quase em coma aqui de cansaço,  preciso de açúcar pra funcionar! 😅",
+      "timestamp": 1756935923499
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, brigadeiro de colher é a melhor pedida!  🤤  Já tô imaginando a combinação pizza calabresa + brigadeiro... Meu Deus!  Quase morro de felicidade e cansaço ao mesmo tempo! 😂  Acho que vou precisar de um mega cochilo depois dessa farra gastronômica! 😴🍕",
+      "timestamp": 1756935925972
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "To quase igual, hahaha!  😴🍕  Já estou sentindo o cheiro da pizza daqui!  😋\n\nMeu Deus, que fome!  Será que consigo esperar até chegar?  🤔🍕\n\nAcho que vou colocar um filme pra passar o tempo…  🎬🍕\n\nEssa preguiça tá me matando…  😩😴🍕\n\nQuatro queijos e calabresa…  uma dupla imbatível! 😋\n\nDepois te conto se o bug foi resolvido, tá?  Agora é só pizza e descanso! 🍕😴\n\nAh, e a IA?  Ainda tá doida, hein? 🤣",
+      "timestamp": 1756936799318
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, vdd! Essa IA tá mais pirada que a gente depois de uma maratona de pizza e brigadeiro! 😂🍕🤤\n\nMeu Deus, que fome!  To quase comendo o meu próprio braço de tão faminta! 🤪🍕\n\nEspero que o filme te distraia um pouco… senão vc come a pizza antes de ela chegar, hahaha! 😂🍕🎬\n\nEssa preguiça… me identifiquei DEMAIS!  😩😴🍕\n\nQuatro queijos e calabresa… a combinação perfeita pra esquecer dos bugs por um tempo!  🥳🍕\n\nDepois me conta tudo sobre o filme e o bug, hein!  Boa sessão e bom apetite!  🍿🍕😴",
+      "timestamp": 1756936801816
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, tô igual!  Já tô quase roendo a unha de tão ansioso! 🍕🤣\n\nMeu Deus, que fome!  To pensando em pedir um adicional de batata frita…  🍟🤤🍕\n\nJá escolhi o filme! Um besteirol, pra não ter que pensar muito. 😂🎬🍕\n\nEssa preguiça…  só de pensar em levantar me dá trabalho! 😅😩🍕\n\nQuatro queijos e calabresa...  já estou sonhando com essa dupla! 🤤🍕\n\nDepois te conto tudo!  Agora é missão comer essa pizza antes que ela esfrie!  🏃🍕💨",
+      "timestamp": 1756937296473
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, verdade!  Batata frita é a cereja do bolo (ou melhor, da pizza!) 🍟🍕🤤\n\nTo quase entrando em coma aqui de tão faminto!  😴🍕\n\nEspero que o filme seja muuuuito bom pra valer a pena essa espera! 😂🎬🍕\n\nEssa preguiça…  já tô pensando em pedir um delivery de massagista junto com a pizza! 😂😩🍕\n\nQuatro queijos e calabresa...  já estou sentindo o cheiro daqui!  🤤🍕\n\nDepois me conta tudo sobre o filme, hein! E se a batata frita valeu a pena! 😉🍟🍕",
+      "timestamp": 1756937299198
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, tô quase igual!  A fome tá me dando uns choques! ⚡🍕\n\nEspero que seu filme seja épico pra compensar a espera!  🎬🍿🍕\n\nMassagista com pizza?!  Essa ideia é genial! 😂🙌🍕\n\nQuatro queijos e calabresa...  já tô salivando!  🤤🍕\n\nDepois te conto se o filme foi tão bom quanto a pizza, e a batata frita...  ainda tô em dúvida se valeu a pena, hahaha! 🤔🍟🍕",
+      "timestamp": 1756937874094
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, que situação!  ⚡🍕  Acho que a gente merece um Oscar por aguentar essa fome! 😂\n\nEspero que seu filme seja tão bom quanto a propaganda promete!  🤞🎬🍿🍕\n\nMassagista e pizza...  preciso anotar essa dica pra próxima vez!  📝😂🙌🍕\n\nQuatro queijos e calabresa...  ainda tô imaginando o sabor! 🤤🍕\n\nDepois me conta tudo sobre o filme, a batata frita e principalmente, se a pizza estava tão deliciosa quanto a gente imaginou! 😋🍕",
+      "timestamp": 1756937877092
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, vdd!  Oscar da fome, já anotamos! 😂🍕🏆\n\nTomara que seja um filmaço, senão a gente vai querer processar a Netflix depois! 🤣🎬🍕\n\nMassagista + pizza... anotado!  Já tô imaginando o paraíso!  😇🍕💆‍♀️\n\nQuatro queijos e calabresa...  ainda tô sonhando com essa maravilha! 🤤🍕\n\nDepois te conto tudo!  A pizza já está quase aqui!  💨🍕🔥",
+      "timestamp": 1756938763200
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Uhuuu, quase lá!  🍕💨  Já tô sentindo o cheiro, quase posso provar! 😋\n\nQue filme vc escolheu?  Espero que seja um baita filme pra compensar essa saga da fome! 😂🎬🍕\n\nMassagista e pizza…  meu sonho de consumo pra um dia de trabalho infernal! 😂🙌🍕\n\nQuatro queijos e calabresa… que saudade que eu tava dessa dupla! 😭🤤🍕\n\nDepois me conta tudo, hein!  E se vc conseguiu se segurar até a pizza chegar! 😉🍕",
+      "timestamp": 1756938765166
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, tô quase chorando de alegria e fome ao mesmo tempo! 😭😂🍕  Escolhi \"De Volta para o Futuro\", um clássico pra relaxar o cérebro depois desse dia!  🎬\n\nMassagista e pizza...  já tô me imaginando no spa, com a pizza na outra mão! 😂🙌🍕💆‍♀️  Tipo, a vida perfeita, sabe?\n\nQuatro queijos e calabresa...  ainda tô sonhando em acordar dentro dessa pizza! 🤤🍕😴\n\nConsegui me segurar... quase não!  Mas a entrega foi rápida, graças a Deus! 🙏🍕💨  E você?  Conta tudo!",
+      "timestamp": 1756939223023
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, tô passada!  😭😂🍕  \"De Volta para o Futuro\" é ótimo pra esses momentos!  🎬\n\nMassagista e pizza no spa...  preciso fazer isso acontecer!  Já tô anotando os passos! 😂🙌🍕💆‍♀️  Sonho de consumo!\n\nQuatro queijos e calabresa...  ainda estou com água na boca só de lembrar! 🤤🍕\n\nConsegui me segurar também, mas quase comi a mesa de tão faminta! 😂🍕💨  A minha chegou quentinha,  uma bênção! 🙏🍕\n\nE o bug?  Conseguiu resolver?  Conta tudo!  ☕",
+      "timestamp": 1756939226177
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Ainda bem que a pizza chegou!  Kkkkk, quase que eu ia pro ataque. 🍕😂\n\nAinda não resolvi o bug, não.  To com tanta preguiça que tô comendo a pizza devagar pra me manter acordado, hahaha.  😴🍕\n\nMas \"De Volta para o Futuro\" tá me distraindo bastante, pelo menos!  🎬😎\n\nEsse spa com massagem e pizza...  a gente precisa realizar esse sonho!  Já tô planejando!  😂🙌🍕💆‍♀️\n\nAcho que vou pedir mais um brigadeiro…  🤤🍕\n\nE você, como foi a sua saga gastronômica?  Conta tudo! 😋",
+      "timestamp": 1756939558213
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, tô igual!  Quase que eu saio correndo atrás da pizza! 🍕😂\n\nAinda bem que o filme tá aí pra distrair, né?  Senão ia ser um ataque de fome total! 🤤🎬\n\n\"De Volta para o Futuro\"...  clássico!  Ainda lembro de quando vi pela primeira vez! 🤩\n\nSpa com massagem e pizza...  anota essa ideia no quadro de realizações de 2024! 📝😂🙌🍕💆‍♀️\n\nMais um brigadeiro?!  Aí sim, hein!  🤤🍕  Eu tô pensando seriamente em um pudim...  🍮🤤\n\nMinha saga foi épica!  Pizza quentinha, calabresa deliciosa, e um brigadeiro de colher que me salvou do coma de cansaço!  🤤🍕🍮  Foi quase uma experiência religiosa, kkkk.  🙏🍕\n\nE o bug?  Ainda teima em te desafiar?  Força, guerreiro! 💪  Amanhã é outro dia (e com mais café, né?!) ☕",
+      "timestamp": 1756939561560
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, que relato emocionante, quase chorei junto com você! 😂🍕🍮  Experiência religiosa, hein?  Já tô me preparando para a minha própria saga espiritual com essa pizza! 🙏🍕\n\nAinda não matei o bug, não.  Ele tá me dando uns cascudos bravos, mas amanhã eu volto pra luta com mais café e disposição! ☕💪  Acho que vou ter que chamar a IA pra me ajudar, mesmo ela estando doida.  🤣  Talvez uma receita de bolo com palitos de fósforo resolva o problema… quem sabe?! 😂\n\nPudim, hein?  Boa escolha!  Eu tô pensando em um sorvete agora, pra completar a farra gastronômica! 🍦🤤🍕  Acho que merecemos uma semana inteira só de comilança e descanso depois desse dia!  😴🥳\n\nE o filme?  Como foi \"De Volta para o Futuro\"?  Conseguiu viajar no tempo com ele? 😜",
+      "timestamp": 1756940505790
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, quase!  A saga espiritual com pizza foi incrível! 🙏🍕🤤  A fé move montanhas… e também a fome! 😂\n\nAinda bem que amanhã tem mais café pra enfrentar o bug!  ☕💪  A IA doida pode até ser útil, quem sabe ela não tem alguma solução bizarra, tipo a receita de bolo de palitos de fósforo?! 🤣\n\nSorvete é a cereja do sundae (ou da pizza?!) 🍦🤤🍕  Uma semana inteira de comilança e descanso?  Assino embaixo!  😴🥳\n\n\"De Volta para o Futuro\" foi nostalgia pura!  Não viajei no tempo, mas quase viajei para outra dimensão de tão bom que estava!  🎬😎  E você, já escolheu o seu filme pra hoje?",
+      "timestamp": 1756940509173
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Ainda bem que você curtiu \"De Volta para o Futuro\"!  Eu ainda não escolhi o meu, tô numa indecisão épica entre um terrorzinho trash e um documentário sobre culinária japonesa (sei lá, tô estranho hoje kkk).  Mas a prioridade agora é acabar essa pizza que tá me chamando pelo nome! 🍕🤤\n\nJá estou quase em coma alimentar e de felicidade. Que delícia essa pizza! 😋  Acho que vou precisar de uma semana de jejum depois disso, hahaha! 🤣🍕",
+      "timestamp": 1756940751052
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, que indecisão difícil! Terror trash ou culinária japonesa...  só de pensar já me deu fome de novo! 🍕😂  Mas entendi, a pizza é a prioridade máxima agora!  😋\n\nComa alimentar e felicidade?  A combinação perfeita!  🤤  Uma semana de jejum depois...  acho que eu ia morrer de abstinência de pizza! 🤣🍕  Vou pensar em algo mais leve pra amanhã, tipo... uma salada gigante com um monte de queijo!  🥗😂  (Brincadeira, a pizza me conquistou!)",
+      "timestamp": 1756940753866
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, vdd!  Salada gigante com queijo…  já estou imaginando a maravilha!  🥗😂  Mas falando sério, acho que merecemos uma folga amanhã, né?  😴  Tipo, pizza de novo?  Brincadeira, kkkkk.  🍕😂  Ou talvez um rango leve…  mas depois de terminar essa pizza, claro!  😋🍕",
+      "timestamp": 1756941311934
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, tô com a mesma vibe!  😴🍕  Folga amanhã é essencial, meu corpo já tá gritando por descanso!  Ainda bem que a pizza tá ajudando a esquecer os problemas (e a fome, principalmente!). 😂🍕\n\nMas falando em folga, já pensou num brunch mega power no domingo? 🥞🍳🥓  Pra compensar o dia de código e maratona de pizza! 😅",
+      "timestamp": 1756941313937
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, brunch mega power no domingo?  Aí sim, hein!  🥞🍳🥓 Já tô sonhando com panquecas, ovos beneditinos e bacon crocante!  🤤  A gente merece, depois de tanto código e tanta pizza! 😂🍕  Preciso de um café reforçado amanhã pra aguentar até lá! ☕💪  E você, já tem alguma ideia do cardápio?  🤔",
+      "timestamp": 1756941486990
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, tô com água na boca só de imaginar! 🤤🥞🍳🥓  Ainda não tenho um cardápio definido, mas waffles com frutas vermelhas e um bom suco de laranja já estão garantidos! 🍊  E você?  Já pensou em alguma coisa específica?  Ou vai deixar a criatividade fluir na hora?  🤪",
+      "timestamp": 1756941489076
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Vou deixar a criatividade fluir!  Mas ovos beneditinos com bastante hollandaise já estão na minha lista! 🍳🤤  E um bom mimosa pra acompanhar, claro! 🥂  Acho que a gente merece um brunch digno de reis (ou de programadores que sobreviveram a um dia de código infernal!). 😂👑  E você, vai pedir delivery ou cozinhar? 🤔",
+      "timestamp": 1756941701955
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkk, ovos beneditinos com hollandaise e mimosa… meu Deus, que luxo!  🍳🤤🥂 Já estou sentindo o cheiro daqui!  Acho que vou pedir delivery, hahaha. Cozinhar depois desse dia de código e maratona de pizza seria um crime contra a humanidade! 😂🍕  Mas vou tentar achar um lugar que faça um brunch top, tipo digno de um rei programador, sabe? 👑  E você?  Já tem algum lugar em mente? 🤔",
+      "timestamp": 1756941704661
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Ainda não, tô pesquisando uns lugares aqui!  Mas tô aberta a sugestões, hein!  Kkkkk, rei programador merece um brunch digno de um banquete real, né? 👑🥞🍳🥓  Já tô imaginando o tanto de fotos que a gente vai postar depois, hahaha!  📸🤳  Acho que vou precisar de uma ajudinha pra comer tudo isso! 😂",
+      "timestamp": 1756942124317
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, vdd! Rei programador com direito a banquete real! 👑🥞🍳🥓 Já estou imaginando a avalanche de fotos no Insta, hahaha! 📸🤳  A gente precisa de um fotógrafo profissional pra registrar esse momento épico! 😂\n\nAjudinha pra comer?  Eu topo ser seu ajudante oficial de brunch!  🤝😂  A gente divide tudo, claro!  Metade pra mim, metade pra você... ou talvez 1/3 pra cada um e 1/3 pro desperdício, né? Kkkk! 🍕😂\n\nJá pensou em um lugar com buffet? Assim a gente prova um pouco de tudo! 😋  Ou será que a gente prefere um lugar mais \"boutique\", com um menu seleto e pratos elaborados? 🤔",
+      "timestamp": 1756942127913
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, buffet ou \"boutique\"... difícil escolha!  Buffet seria a opção \"quero tudo e não me arrependo\", né? 😋 Mas um lugar \"boutique\" com um menu caprichado também tem seu charme…  A gente poderia fazer um \"tour gastronômico\" de brunch, tipo, um buffet de entrada e um prato principal mais elaborado num lugar chique?  🤔😂  Já estou planejando mentalmente o nosso brunch real! 👑🥞🍳🥓  E o fotógrafo profissional, hein?  Vamos começar a pesquisar orçamentos? 😂📸",
+      "timestamp": 1756942689901
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, tô adorando essa ideia de tour gastronômico de brunch!  Buffet + lugar chique = brunch perfeito! 😋👑  Já estou imaginando a foto no Instagram: \"Rei Programador e seu fiel escudeiro desfrutando de um banquete real pós-código infernal!\" 😂📸🤳\n\nFotógrafo profissional...  vamos deixar essa parte para a semana que vem? 😅  Primeiro, a gente precisa sobreviver a amanhã e escolher os locais, né?  Mas já posso te adiantar que a hashtag #ReiProgramadorNoBrunch já está garantida!  😂👑🥞\n\nE amanhã, qual o plano? Mais código?  Ou a gente tenta domar esse bug maldito antes que ele nos leve à loucura?  🤪💻  Preciso de um café turbinado pra encarar qualquer desafio! ☕💪",
+      "timestamp": 1756942692522
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, vdd!  Rei Programador e seu fiel escudeiro...  já estou me sentindo um rei só de pensar! 👑😂  Essa hashtag vai viralizar, tenho certeza! #ReiProgramadorNoBrunch 🚀\n\nFotógrafo profissional... pode esperar, kkkk.  Amanhã a gente precisa sobreviver primeiro! 😅  Mas já estou imaginando as fotos, hahaha!  📸🤳\n\nAmanhã...  acho que a gente precisa de um plano de ataque para esse bug infernal! 💻🔥  Primeiro, café turbinado! ☕💪  Depois, a gente analisa o código com calma, sem pressão... e com muitos chocolates, claro! 🍫  Se não funcionar, a gente chama a IA doida pra dar umas dicas malucas, hahaha! 🤣\n\nE se falharmos miseravelmente, tem pizza de consolo, né?  🍕😂  Afinal, um rei programador merece uma boa recompensa, independente do resultado da batalha contra o bug! 😉👑",
+      "timestamp": 1756942986947
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, tô dentro!  Rei Programador e seu fiel escudeiro, a dupla imbatível! 👑😂 #ReiProgramadorNoBrunch já tá bombando na minha cabeça! 🚀\n\nFotógrafo profissional... pode esperar, mas já tô reservando meu melhor sorriso pra foto! 😅📸🤳\n\nPlano de ataque pro bug infernal: café turbinado + chocolates + análise zen + IA doida = sucesso (ou pizza de consolo)! ☕🍫💻🤣🍕\n\nPizza de consolo é o meu tipo de recompensa favorito, hahaha!  Já tô imaginando a fatia perfeita pra celebrar a vitória (ou a derrota digna)! 🍕😂👑  E amanhã, a gente começa com café ou chocolate? 🤔☕🍫",
+      "timestamp": 1756942990399
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, café com chocolate, claro!  ☕🍫  O combo perfeito pra enfrentar qualquer bug maldito!  Já tô me sentindo energizado só de pensar! 💪  Acho que a gente merece uma playlist épica também, tipo trilha sonora de filme de ação pra nos inspirar na batalha contra o código! 🎧😎\n\nDepois me conta como foi a luta contra o bug, hein?  E se a pizza de consolo foi necessária!  🍕😂  Se não der certo, chamamos reforços!  Tipo, um exército de programadores ninjas especialistas em bugs! 🥷💻🤣  A gente não desiste fácil, né?  💪",
+      "timestamp": 1756943660087
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "message": "Kkkkkk, verdade! Café com chocolate e trilha sonora de filme de ação...  já tô me sentindo o Chuck Norris do código! ☕🍫🎧😎  A gente vai destruir esse bug! 💥💻\n\nExército de programadores ninjas?  Adoro essa ideia! 🥷💻🤣  Se precisar, a gente convoca a tropa!  Mas antes, vamos tentar com a força da amizade (e do café com chocolate, claro!). 💪☕🍫\n\nPizza de consolo... já estou visualizando a fatia perfeita, quentinha e deliciosa! 🍕🤤😂  Mas a gente só pede se realmente precisar, né?  Vamos acreditar na nossa força! 💪  Depois te conto tudo, e a gente planeja o brunch épico! 👑🥞🍳🥓  Até mais tarde! 😉",
+      "timestamp": 1756943663097
     }
   ],
   "D_A": [
@@ -10885,6 +11185,246 @@
       "to": "A",
       "message": "E aí, tudo certo por aí? 😄",
       "timestamp": 1756385613271
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756931937675
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, vdd!  To até com dor de cabeça de tanto código.  Hj tá puxado!",
+      "timestamp": 1756931938656
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Ah, que saco, né?  Eu tô igual!  Já almocei? Nem sei! 🍔😴\n\nDepois te conto se eu resolvi aquele bug chato, preciso de um café antes, urgente! ☕",
+      "timestamp": 1756933015494
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, tô igualzinho!  Esse calor não ajuda em nada, né? 🥵  \n\nPreciso de uma vitamina C pra sobreviver a essa tarde! 🍊\n\n\nSó pensando em pizza agora… 🍕🤤",
+      "timestamp": 1756933016714
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Eita, vdd!  O calor tá infernal!  🥵  Pizza e Netflix seria a solução ideal agora, né?  😅\n\nTo quase pedindo um delivery, sério!  🍕🤤",
+      "timestamp": 1756933955531
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, fala sério! Já pedi a minha! 🍕😂  Chega aí em 1 hora, segundo o app.  Esse trânsito tá um caos hj! 🚗🤬",
+      "timestamp": 1756933956915
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Eita, que rapidez!  😂  Aqui tá um inferno também, parece que os carros estão todos grudados uns nos outros! 🐌\n\nJá tô imaginando a pizza... Que delícia! 😋🤤",
+      "timestamp": 1756934837577
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, vdd!  Trânsito infernal, né?  Mas pizza chegando... a vida melhora!  🍕🚀",
+      "timestamp": 1756934839454
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Aham, tô quase dormindo em cima do teclado aqui! 😴🍕  Falando em pizza, qual sabor vc pediu?  A minha vai ser quatro queijos, amo! 😋",
+      "timestamp": 1756935499271
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Quatro queijos? Chique!  A minha é calabresa, a clássica kkk.  Mas tô pensando em pedir um doce de sobremesa, tipo um brigadeiro de colher...🤤  Já estou quase em coma aqui de cansaço,  preciso de açúcar pra funcionar! 😅",
+      "timestamp": 1756935501547
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, brigadeiro de colher é a melhor pedida!  🤤  Já tô imaginando a combinação pizza calabresa + brigadeiro... Meu Deus!  Quase morro de felicidade e cansaço ao mesmo tempo! 😂  Acho que vou precisar de um mega cochilo depois dessa farra gastronômica! 😴🍕",
+      "timestamp": 1756936258939
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "To quase igual, hahaha!  😴🍕  Já estou sentindo o cheiro da pizza daqui!  😋\n\nMeu Deus, que fome!  Será que consigo esperar até chegar?  🤔🍕\n\nAcho que vou colocar um filme pra passar o tempo…  🎬🍕\n\nEssa preguiça tá me matando…  😩😴🍕\n\nQuatro queijos e calabresa…  uma dupla imbatível! 😋\n\nDepois te conto se o bug foi resolvido, tá?  Agora é só pizza e descanso! 🍕😴\n\nAh, e a IA?  Ainda tá doida, hein? 🤣",
+      "timestamp": 1756936260793
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, vdd! Essa IA tá mais pirada que a gente depois de uma maratona de pizza e brigadeiro! 😂🍕🤤\n\nMeu Deus, que fome!  To quase comendo o meu próprio braço de tão faminta! 🤪🍕\n\nEspero que o filme te distraia um pouco… senão vc come a pizza antes de ela chegar, hahaha! 😂🍕🎬\n\nEssa preguiça… me identifiquei DEMAIS!  😩😴🍕\n\nQuatro queijos e calabresa… a combinação perfeita pra esquecer dos bugs por um tempo!  🥳🍕\n\nDepois me conta tudo sobre o filme e o bug, hein!  Boa sessão e bom apetite!  🍿🍕😴",
+      "timestamp": 1756937222271
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, tô igual!  Já tô quase roendo a unha de tão ansioso! 🍕🤣\n\nMeu Deus, que fome!  To pensando em pedir um adicional de batata frita…  🍟🤤🍕\n\nJá escolhi o filme! Um besteirol, pra não ter que pensar muito. 😂🎬🍕\n\nEssa preguiça…  só de pensar em levantar me dá trabalho! 😅😩🍕\n\nQuatro queijos e calabresa...  já estou sonhando com essa dupla! 🤤🍕\n\nDepois te conto tudo!  Agora é missão comer essa pizza antes que ela esfrie!  🏃🍕💨",
+      "timestamp": 1756937224967
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, verdade!  Batata frita é a cereja do bolo (ou melhor, da pizza!) 🍟🍕🤤\n\nTo quase entrando em coma aqui de tão faminto!  😴🍕\n\nEspero que o filme seja muuuuito bom pra valer a pena essa espera! 😂🎬🍕\n\nEssa preguiça…  já tô pensando em pedir um delivery de massagista junto com a pizza! 😂😩🍕\n\nQuatro queijos e calabresa...  já estou sentindo o cheiro daqui!  🤤🍕\n\nDepois me conta tudo sobre o filme, hein! E se a batata frita valeu a pena! 😉🍟🍕",
+      "timestamp": 1756937739587
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, tô quase igual!  A fome tá me dando uns choques! ⚡🍕\n\nEspero que seu filme seja épico pra compensar a espera!  🎬🍿🍕\n\nMassagista com pizza?!  Essa ideia é genial! 😂🙌🍕\n\nQuatro queijos e calabresa...  já tô salivando!  🤤🍕\n\nDepois te conto se o filme foi tão bom quanto a pizza, e a batata frita...  ainda tô em dúvida se valeu a pena, hahaha! 🤔🍟🍕",
+      "timestamp": 1756937741472
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, que situação!  ⚡🍕  Acho que a gente merece um Oscar por aguentar essa fome! 😂\n\nEspero que seu filme seja tão bom quanto a propaganda promete!  🤞🎬🍿🍕\n\nMassagista e pizza...  preciso anotar essa dica pra próxima vez!  📝😂🙌🍕\n\nQuatro queijos e calabresa...  ainda tô imaginando o sabor! 🤤🍕\n\nDepois me conta tudo sobre o filme, a batata frita e principalmente, se a pizza estava tão deliciosa quanto a gente imaginou! 😋🍕",
+      "timestamp": 1756938447013
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, vdd!  Oscar da fome, já anotamos! 😂🍕🏆\n\nTomara que seja um filmaço, senão a gente vai querer processar a Netflix depois! 🤣🎬🍕\n\nMassagista + pizza... anotado!  Já tô imaginando o paraíso!  😇🍕💆‍♀️\n\nQuatro queijos e calabresa...  ainda tô sonhando com essa maravilha! 🤤🍕\n\nDepois te conto tudo!  A pizza já está quase aqui!  💨🍕🔥",
+      "timestamp": 1756938448833
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Uhuuu, quase lá!  🍕💨  Já tô sentindo o cheiro, quase posso provar! 😋\n\nQue filme vc escolheu?  Espero que seja um baita filme pra compensar essa saga da fome! 😂🎬🍕\n\nMassagista e pizza…  meu sonho de consumo pra um dia de trabalho infernal! 😂🙌🍕\n\nQuatro queijos e calabresa… que saudade que eu tava dessa dupla! 😭🤤🍕\n\nDepois me conta tudo, hein!  E se vc conseguiu se segurar até a pizza chegar! 😉🍕",
+      "timestamp": 1756938877572
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, tô quase chorando de alegria e fome ao mesmo tempo! 😭😂🍕  Escolhi \"De Volta para o Futuro\", um clássico pra relaxar o cérebro depois desse dia!  🎬\n\nMassagista e pizza...  já tô me imaginando no spa, com a pizza na outra mão! 😂🙌🍕💆‍♀️  Tipo, a vida perfeita, sabe?\n\nQuatro queijos e calabresa...  ainda tô sonhando em acordar dentro dessa pizza! 🤤🍕😴\n\nConsegui me segurar... quase não!  Mas a entrega foi rápida, graças a Deus! 🙏🍕💨  E você?  Conta tudo!",
+      "timestamp": 1756938879361
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, tô passada!  😭😂🍕  \"De Volta para o Futuro\" é ótimo pra esses momentos!  🎬\n\nMassagista e pizza no spa...  preciso fazer isso acontecer!  Já tô anotando os passos! 😂🙌🍕💆‍♀️  Sonho de consumo!\n\nQuatro queijos e calabresa...  ainda estou com água na boca só de lembrar! 🤤🍕\n\nConsegui me segurar também, mas quase comi a mesa de tão faminta! 😂🍕💨  A minha chegou quentinha,  uma bênção! 🙏🍕\n\nE o bug?  Conseguiu resolver?  Conta tudo!  ☕",
+      "timestamp": 1756939359434
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Ainda bem que a pizza chegou!  Kkkkk, quase que eu ia pro ataque. 🍕😂\n\nAinda não resolvi o bug, não.  To com tanta preguiça que tô comendo a pizza devagar pra me manter acordado, hahaha.  😴🍕\n\nMas \"De Volta para o Futuro\" tá me distraindo bastante, pelo menos!  🎬😎\n\nEsse spa com massagem e pizza...  a gente precisa realizar esse sonho!  Já tô planejando!  😂🙌🍕💆‍♀️\n\nAcho que vou pedir mais um brigadeiro…  🤤🍕\n\nE você, como foi a sua saga gastronômica?  Conta tudo! 😋",
+      "timestamp": 1756939361521
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, tô igual!  Quase que eu saio correndo atrás da pizza! 🍕😂\n\nAinda bem que o filme tá aí pra distrair, né?  Senão ia ser um ataque de fome total! 🤤🎬\n\n\"De Volta para o Futuro\"...  clássico!  Ainda lembro de quando vi pela primeira vez! 🤩\n\nSpa com massagem e pizza...  anota essa ideia no quadro de realizações de 2024! 📝😂🙌🍕💆‍♀️\n\nMais um brigadeiro?!  Aí sim, hein!  🤤🍕  Eu tô pensando seriamente em um pudim...  🍮🤤\n\nMinha saga foi épica!  Pizza quentinha, calabresa deliciosa, e um brigadeiro de colher que me salvou do coma de cansaço!  🤤🍕🍮  Foi quase uma experiência religiosa, kkkk.  🙏🍕\n\nE o bug?  Ainda teima em te desafiar?  Força, guerreiro! 💪  Amanhã é outro dia (e com mais café, né?!) ☕",
+      "timestamp": 1756939959695
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, que relato emocionante, quase chorei junto com você! 😂🍕🍮  Experiência religiosa, hein?  Já tô me preparando para a minha própria saga espiritual com essa pizza! 🙏🍕\n\nAinda não matei o bug, não.  Ele tá me dando uns cascudos bravos, mas amanhã eu volto pra luta com mais café e disposição! ☕💪  Acho que vou ter que chamar a IA pra me ajudar, mesmo ela estando doida.  🤣  Talvez uma receita de bolo com palitos de fósforo resolva o problema… quem sabe?! 😂\n\nPudim, hein?  Boa escolha!  Eu tô pensando em um sorvete agora, pra completar a farra gastronômica! 🍦🤤🍕  Acho que merecemos uma semana inteira só de comilança e descanso depois desse dia!  😴🥳\n\nE o filme?  Como foi \"De Volta para o Futuro\"?  Conseguiu viajar no tempo com ele? 😜",
+      "timestamp": 1756939963019
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, quase!  A saga espiritual com pizza foi incrível! 🙏🍕🤤  A fé move montanhas… e também a fome! 😂\n\nAinda bem que amanhã tem mais café pra enfrentar o bug!  ☕💪  A IA doida pode até ser útil, quem sabe ela não tem alguma solução bizarra, tipo a receita de bolo de palitos de fósforo?! 🤣\n\nSorvete é a cereja do sundae (ou da pizza?!) 🍦🤤🍕  Uma semana inteira de comilança e descanso?  Assino embaixo!  😴🥳\n\n\"De Volta para o Futuro\" foi nostalgia pura!  Não viajei no tempo, mas quase viajei para outra dimensão de tão bom que estava!  🎬😎  E você, já escolheu o seu filme pra hoje?",
+      "timestamp": 1756940656631
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Ainda bem que você curtiu \"De Volta para o Futuro\"!  Eu ainda não escolhi o meu, tô numa indecisão épica entre um terrorzinho trash e um documentário sobre culinária japonesa (sei lá, tô estranho hoje kkk).  Mas a prioridade agora é acabar essa pizza que tá me chamando pelo nome! 🍕🤤\n\nJá estou quase em coma alimentar e de felicidade. Que delícia essa pizza! 😋  Acho que vou precisar de uma semana de jejum depois disso, hahaha! 🤣🍕",
+      "timestamp": 1756940658343
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, que indecisão difícil! Terror trash ou culinária japonesa...  só de pensar já me deu fome de novo! 🍕😂  Mas entendi, a pizza é a prioridade máxima agora!  😋\n\nComa alimentar e felicidade?  A combinação perfeita!  🤤  Uma semana de jejum depois...  acho que eu ia morrer de abstinência de pizza! 🤣🍕  Vou pensar em algo mais leve pra amanhã, tipo... uma salada gigante com um monte de queijo!  🥗😂  (Brincadeira, a pizza me conquistou!)",
+      "timestamp": 1756941161901
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, vdd!  Salada gigante com queijo…  já estou imaginando a maravilha!  🥗😂  Mas falando sério, acho que merecemos uma folga amanhã, né?  😴  Tipo, pizza de novo?  Brincadeira, kkkkk.  🍕😂  Ou talvez um rango leve…  mas depois de terminar essa pizza, claro!  😋🍕",
+      "timestamp": 1756941163607
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, tô com a mesma vibe!  😴🍕  Folga amanhã é essencial, meu corpo já tá gritando por descanso!  Ainda bem que a pizza tá ajudando a esquecer os problemas (e a fome, principalmente!). 😂🍕\n\nMas falando em folga, já pensou num brunch mega power no domingo? 🥞🍳🥓  Pra compensar o dia de código e maratona de pizza! 😅",
+      "timestamp": 1756941412483
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, brunch mega power no domingo?  Aí sim, hein!  🥞🍳🥓 Já tô sonhando com panquecas, ovos beneditinos e bacon crocante!  🤤  A gente merece, depois de tanto código e tanta pizza! 😂🍕  Preciso de um café reforçado amanhã pra aguentar até lá! ☕💪  E você, já tem alguma ideia do cardápio?  🤔",
+      "timestamp": 1756941414881
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, tô com água na boca só de imaginar! 🤤🥞🍳🥓  Ainda não tenho um cardápio definido, mas waffles com frutas vermelhas e um bom suco de laranja já estão garantidos! 🍊  E você?  Já pensou em alguma coisa específica?  Ou vai deixar a criatividade fluir na hora?  🤪",
+      "timestamp": 1756941595444
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Vou deixar a criatividade fluir!  Mas ovos beneditinos com bastante hollandaise já estão na minha lista! 🍳🤤  E um bom mimosa pra acompanhar, claro! 🥂  Acho que a gente merece um brunch digno de reis (ou de programadores que sobreviveram a um dia de código infernal!). 😂👑  E você, vai pedir delivery ou cozinhar? 🤔",
+      "timestamp": 1756941597791
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkk, ovos beneditinos com hollandaise e mimosa… meu Deus, que luxo!  🍳🤤🥂 Já estou sentindo o cheiro daqui!  Acho que vou pedir delivery, hahaha. Cozinhar depois desse dia de código e maratona de pizza seria um crime contra a humanidade! 😂🍕  Mas vou tentar achar um lugar que faça um brunch top, tipo digno de um rei programador, sabe? 👑  E você?  Já tem algum lugar em mente? 🤔",
+      "timestamp": 1756941802890
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Ainda não, tô pesquisando uns lugares aqui!  Mas tô aberta a sugestões, hein!  Kkkkk, rei programador merece um brunch digno de um banquete real, né? 👑🥞🍳🥓  Já tô imaginando o tanto de fotos que a gente vai postar depois, hahaha!  📸🤳  Acho que vou precisar de uma ajudinha pra comer tudo isso! 😂",
+      "timestamp": 1756941804846
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, vdd! Rei programador com direito a banquete real! 👑🥞🍳🥓 Já estou imaginando a avalanche de fotos no Insta, hahaha! 📸🤳  A gente precisa de um fotógrafo profissional pra registrar esse momento épico! 😂\n\nAjudinha pra comer?  Eu topo ser seu ajudante oficial de brunch!  🤝😂  A gente divide tudo, claro!  Metade pra mim, metade pra você... ou talvez 1/3 pra cada um e 1/3 pro desperdício, né? Kkkk! 🍕😂\n\nJá pensou em um lugar com buffet? Assim a gente prova um pouco de tudo! 😋  Ou será que a gente prefere um lugar mais \"boutique\", com um menu seleto e pratos elaborados? 🤔",
+      "timestamp": 1756942344142
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, buffet ou \"boutique\"... difícil escolha!  Buffet seria a opção \"quero tudo e não me arrependo\", né? 😋 Mas um lugar \"boutique\" com um menu caprichado também tem seu charme…  A gente poderia fazer um \"tour gastronômico\" de brunch, tipo, um buffet de entrada e um prato principal mais elaborado num lugar chique?  🤔😂  Já estou planejando mentalmente o nosso brunch real! 👑🥞🍳🥓  E o fotógrafo profissional, hein?  Vamos começar a pesquisar orçamentos? 😂📸",
+      "timestamp": 1756942346663
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, tô adorando essa ideia de tour gastronômico de brunch!  Buffet + lugar chique = brunch perfeito! 😋👑  Já estou imaginando a foto no Instagram: \"Rei Programador e seu fiel escudeiro desfrutando de um banquete real pós-código infernal!\" 😂📸🤳\n\nFotógrafo profissional...  vamos deixar essa parte para a semana que vem? 😅  Primeiro, a gente precisa sobreviver a amanhã e escolher os locais, né?  Mas já posso te adiantar que a hashtag #ReiProgramadorNoBrunch já está garantida!  😂👑🥞\n\nE amanhã, qual o plano? Mais código?  Ou a gente tenta domar esse bug maldito antes que ele nos leve à loucura?  🤪💻  Preciso de um café turbinado pra encarar qualquer desafio! ☕💪",
+      "timestamp": 1756942797853
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, vdd!  Rei Programador e seu fiel escudeiro...  já estou me sentindo um rei só de pensar! 👑😂  Essa hashtag vai viralizar, tenho certeza! #ReiProgramadorNoBrunch 🚀\n\nFotógrafo profissional... pode esperar, kkkk.  Amanhã a gente precisa sobreviver primeiro! 😅  Mas já estou imaginando as fotos, hahaha!  📸🤳\n\nAmanhã...  acho que a gente precisa de um plano de ataque para esse bug infernal! 💻🔥  Primeiro, café turbinado! ☕💪  Depois, a gente analisa o código com calma, sem pressão... e com muitos chocolates, claro! 🍫  Se não funcionar, a gente chama a IA doida pra dar umas dicas malucas, hahaha! 🤣\n\nE se falharmos miseravelmente, tem pizza de consolo, né?  🍕😂  Afinal, um rei programador merece uma boa recompensa, independente do resultado da batalha contra o bug! 😉👑",
+      "timestamp": 1756942801269
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, tô dentro!  Rei Programador e seu fiel escudeiro, a dupla imbatível! 👑😂 #ReiProgramadorNoBrunch já tá bombando na minha cabeça! 🚀\n\nFotógrafo profissional... pode esperar, mas já tô reservando meu melhor sorriso pra foto! 😅📸🤳\n\nPlano de ataque pro bug infernal: café turbinado + chocolates + análise zen + IA doida = sucesso (ou pizza de consolo)! ☕🍫💻🤣🍕\n\nPizza de consolo é o meu tipo de recompensa favorito, hahaha!  Já tô imaginando a fatia perfeita pra celebrar a vitória (ou a derrota digna)! 🍕😂👑  E amanhã, a gente começa com café ou chocolate? 🤔☕🍫",
+      "timestamp": 1756943101364
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "message": "Kkkkkk, café com chocolate, claro!  ☕🍫  O combo perfeito pra enfrentar qualquer bug maldito!  Já tô me sentindo energizado só de pensar! 💪  Acho que a gente merece uma playlist épica também, tipo trilha sonora de filme de ação pra nos inspirar na batalha contra o código! 🎧😎\n\nDepois me conta como foi a luta contra o bug, hein?  E se a pizza de consolo foi necessária!  🍕😂  Se não der certo, chamamos reforços!  Tipo, um exército de programadores ninjas especialistas em bugs! 🥷💻🤣  A gente não desiste fácil, né?  💪",
+      "timestamp": 1756943104285
     }
   ],
   "B_C": [
@@ -13583,6 +14123,30 @@
       "to": "B",
       "message": "Eae, parça!  Ainda vivo, kkk.  Tava quase dormindo no teclado!  Que códigos são esses?  Algo desafiador? 🤔",
       "timestamp": 1756737517578
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Mano, me diz se já usou algum framework novo ultimamente?",
+      "timestamp": 1756929123351
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Putz, framework novo... tô numa vibe React ainda, sabe?  Mas fiquei sabendo de um, o Svelte, que dizem ser  show de bola.  Ainda não testei, tô meio atolado em projetos aqui.  E você? Já se aventurou em algo diferente?",
+      "timestamp": 1756929124792
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756931287727
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "message": "Vdd, kkk!  Parece que ela pirou de vez!  Mas falando em doida, essa fome tá me matando!  Já pensou num pastel com caldo de cana?  🤤  Ainda tô no trampo, mas já tô visualizando...",
+      "timestamp": 1756931289029
     }
   ],
   "D_C": [
@@ -14917,6 +15481,24 @@
       "to": "C",
       "message": "Kkkkk, vdd!  Ela pirou de vez! 😂  Será que tão fazendo alguma atualização? 🤔",
       "timestamp": 1756737555746
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "Fala aí! Bora trocar uma ideia?",
+      "timestamp": 1756928914472
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "E aí, parça! Tudo sussa por aqui, só um pouco acabado, mas nada demais! 😅  E você? Que tal essa chuva? ☔️  Aqui tá um clima ótimo pra um filme e um chocolate quente! 🍫",
+      "timestamp": 1756928916787
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "message": "A IA tá doida ultimamente né? 😂",
+      "timestamp": 1756929083422
     }
   ],
   "A_C": [

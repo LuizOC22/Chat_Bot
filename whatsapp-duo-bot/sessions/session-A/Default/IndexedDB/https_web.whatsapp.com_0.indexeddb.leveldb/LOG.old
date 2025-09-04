@@ -1,0 +1,15 @@
+2025/09/03-17:30:27.973 399c Reusing MANIFEST C:\Users\luizl\OneDrive\Documentos\Chat_Bot\Chat_Bot\whatsapp-duo-bot\sessions\session-A\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/03-17:30:27.974 399c Recovering log #96
+2025/09/03-17:30:28.049 399c Reusing old log C:\Users\luizl\OneDrive\Documentos\Chat_Bot\Chat_Bot\whatsapp-duo-bot\sessions\session-A\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000096.log 
+2025/09/03-17:30:28.049 399c Delete type=2 #95
+2025/09/03-17:30:28.049 399c Delete type=2 #97
+2025/09/03-17:30:30.016 3b94 Level-0 table #101: started
+2025/09/03-17:30:30.038 3b94 Level-0 table #101: 344218 bytes OK
+2025/09/03-17:30:30.042 3b94 Delete type=0 #96
+2025/09/03-17:30:30.042 3b94 Manual compaction at level-0 from '\x00-\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at '\x00-\x00\x00\x05' @ 82886 : 1
+2025/09/03-17:30:30.043 3b94 Compacting 1@0 + 1@1 files
+2025/09/03-17:30:30.127 3b94 Generated table #102@0: 39914 keys, 761755 bytes
+2025/09/03-17:30:30.127 3b94 Compacted 1@0 + 1@1 files => 761755 bytes
+2025/09/03-17:30:30.129 3b94 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/03-17:30:30.130 3b94 Delete type=2 #101
+2025/09/03-17:30:30.130 3b94 Manual compaction at level-0 from '\x00-\x00\x00\x05' @ 82886 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at (end)

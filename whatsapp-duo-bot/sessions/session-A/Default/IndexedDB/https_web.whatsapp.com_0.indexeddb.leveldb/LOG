@@ -1,0 +1,30 @@
+2025/09/03-17:31:12.218 5164 Reusing MANIFEST C:\Users\luizl\OneDrive\Documentos\Chat_Bot\Chat_Bot\whatsapp-duo-bot\sessions\session-A\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/03-17:31:12.219 5164 Recovering log #100
+2025/09/03-17:31:12.248 5164 Reusing old log C:\Users\luizl\OneDrive\Documentos\Chat_Bot\Chat_Bot\whatsapp-duo-bot\sessions\session-A\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000100.log 
+2025/09/03-17:31:12.249 5164 Delete type=2 #98
+2025/09/03-17:31:14.218 430c Level-0 table #105: started
+2025/09/03-17:31:14.299 430c Level-0 table #105: 115065 bytes OK
+2025/09/03-17:31:14.304 430c Delete type=0 #100
+2025/09/03-17:31:14.304 430c Manual compaction at level-0 from '\x00.\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at '\x00.\x00\x00\x05' @ 88514 : 1
+2025/09/03-17:31:14.304 430c Compacting 1@0 + 1@1 files
+2025/09/03-17:31:14.417 430c Generated table #106@0: 42634 keys, 812840 bytes
+2025/09/03-17:31:14.417 430c Compacted 1@0 + 1@1 files => 812840 bytes
+2025/09/03-17:31:14.420 430c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/03-17:31:14.421 430c Delete type=2 #105
+2025/09/03-17:31:14.421 430c Manual compaction at level-0 from '\x00.\x00\x00\x05' @ 88514 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/03-18:41:44.826 5910 Compacting 1@1 + 1@2 files
+2025/09/03-18:41:44.887 5910 Generated table #107@1: 16817 keys, 600386 bytes
+2025/09/03-18:41:44.887 5910 Compacted 1@1 + 1@2 files => 600386 bytes
+2025/09/03-18:41:44.891 5910 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/03-18:41:44.891 5910 Delete type=2 #102
+2025/09/03-20:01:49.249 557c Level-0 table #109: started
+2025/09/03-20:01:49.293 557c Level-0 table #109: 1151483 bytes OK
+2025/09/03-20:01:49.298 557c Delete type=2 #60
+2025/09/03-20:01:49.298 557c Delete type=0 #104
+2025/09/03-20:01:49.298 557c Delete type=2 #106
+2025/09/03-20:01:49.720 557c Compacting 1@1 + 1@2 files
+2025/09/03-20:01:49.824 557c Generated table #110@1: 29195 keys, 1012710 bytes
+2025/09/03-20:01:49.824 557c Compacted 1@1 + 1@2 files => 1012710 bytes
+2025/09/03-20:01:49.827 557c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/03-20:01:49.828 557c Delete type=2 #107
+2025/09/03-20:01:49.828 557c Delete type=2 #109

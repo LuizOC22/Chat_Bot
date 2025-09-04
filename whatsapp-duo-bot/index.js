@@ -6,11 +6,9 @@ const qrcode = require('qrcode-terminal');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const { group } = require('console');
 
-process.env.DEBUG = 'wweb*';
-
-
 // === CONFIGURAÇÕES ===
-const CLIENT_IDS = ['A', 'B','C', 'D']; // IDs dos bots (clientId)
+
+const CLIENT_IDS = ['A', 'D']; // IDs dos bots (clientId)
 
 const GROUPS = gerarGrupos(CLIENT_IDS, 2);
 
@@ -203,36 +201,21 @@ function getRandomPastMessage(from, to) {
 function restartClient(clientId) {
     console.log(`♻️ Reiniciando cliente ${clientId}...`);
 
-    const sessionPath = path.join(__dirname, 'puppeteer_data', clientId);
-
     async function doRestart() {
-        // Limpa o client da memória
         if (clients[clientId]) {
             try {
-                await clients[clientId].destroy(); // Aguarda destruir o cliente
+                await clients[clientId].destroy();
                 console.log(`🛑 Cliente ${clientId} destruído.`);
             } catch (e) {
-                console.warn(`Erro ao destruir cliente ${clientId}:`, e.message);
+                console.warn(`⚠️ Erro ao destruir cliente ${clientId}:`, e.message);
             }
 
             delete clients[clientId];
             readyClients.delete(clientId);
         }
 
-        // Aguarda um tempo antes de apagar
-        setTimeout(() => {
-            try {
-                if (fs.existsSync(sessionPath)) {
-                    fs.rmSync(sessionPath, { recursive: true, force: true });
-                    console.log(`🧹 Sessão limpa para cliente ${clientId}`);
-                }
-            } catch (err) {
-                console.error(`❌ Erro ao apagar a pasta da sessão:`, err);
-            }
-
-            // Reinicializa o cliente
-            createClient(clientId);
-        }, 2000); // espera 2s para garantir que o Chrome fechou
+        // espera mais tempo pra liberar o Chromium
+        setTimeout(() => createClient(clientId), 8000);
     }
 
     doRestart();
@@ -245,36 +228,38 @@ function createClient(id) {
     console.log(`🔧 Criando cliente ${id}...`);
 
     const client = new Client({
-    puppeteer: {
-    headless: true,
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-gpu',
-      '--disable-extensions',
-      '--disable-background-timer-throttling',
-      '--disable-renderer-backgrounding',
-      '--disable-accelerated-2d-canvas',
-      '--disable-software-rasterizer',
-    ],
-  }
-});
-
-    
+        authStrategy: new LocalAuth({
+            clientId: id,
+            dataPath: path.join(__dirname, 'sessions') // força salvar em ./sessions
+        }),
+        puppeteer: {
+            headless: true,
+            args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-gpu',
+                '--disable-extensions',
+                '--disable-background-timer-throttling',
+                '--disable-renderer-backgrounding',
+                '--disable-accelerated-2d-canvas',
+                '--disable-software-rasterizer',
+            ],
+            timeout: 60000
+        }
+    });
 
     const qrShown = new Set();
 
     client.on('qr', qr => {
-    if (!qrShown.has(id)) {
-        console.log(`📲 QR Code para cliente ${id}:`);
-        qrcode.generate(qr, { small: true });
-        qrShown.add(id);
-    } else {
-        console.log(`🔄 Novo QR code gerado para cliente ${id}, aguardando escaneamento...`);
-    }
-});
-
+        if (!qrShown.has(id)) {
+            console.log(`📲 QR Code para cliente ${id}:`);
+            qrcode.generate(qr, { small: true });
+            qrShown.add(id);
+        } else {
+            console.log(`🔄 Novo QR code gerado para cliente ${id}, aguardando escaneamento...`);
+        }
+    });
 
     client.on('authenticated', () => {
         console.log(`🔐 Cliente ${id} autenticado com sucesso.`);
@@ -285,54 +270,89 @@ function createClient(id) {
     });
 
     client.on('ready', async () => {
-    console.log(`✅ Evento 'ready' disparado para ${id}`);
+        console.log(`✅ Evento 'ready' disparado para ${id}`);
+
+        try {
+            // Aguarda até o info estar disponível
+            let wid;
+            let attempts = 0;
+            while ((!client.info || !client.info.wid) && attempts < 10) {
+                await new Promise(r => setTimeout(r, 500));
+                attempts++;
+            }
+
+            if (!client.info || !client.info.wid) {
+                throw new Error("client.info.wid não disponível após tentativas.");
+            }
+
+            wid = client.info.wid._serialized;
+            console.log(`🤖 Cliente ${id} conectado com número: ${wid}`);
+
+            clients[id] = client;
+            readyClients.add(id);
+
+            // dispara conversas iniciais quando todos prontos
+            if (readyClients.size === CLIENT_IDS.length) {
+                console.log("🚀 Todos os bots estão prontos. Iniciando conversas...");
+                iniciarConversas();
+            }
+        } catch (err) {
+            console.error(`❌ Erro no evento 'ready' do cliente ${id}:`, err);
+        }
+    });
+
+    client.on('message', async msg => {
+        const myId = id;
+
+        if (respondedMessages.has(msg.id._serialized)) return;
+
+        for (const [otherId, otherClient] of Object.entries(clients)) {
+            const senderWid = otherClient?.info?.wid?._serialized;
+
+            if (otherId !== myId && senderWid === msg.from) {
+                const key = `${otherId}_${myId}`;
+                pendingMessages.delete(key);
+                console.log(`💬 [${myId}] recebeu mensagem de [${otherId}]`);
+                respondedMessages.add(msg.id._serialized);
+                sendWithDelay(client, msg.from, msg.body);
+                break;
+            }
+        }
+    });
+
+    client.on('disconnected', (reason) => {
+        console.log(`❌ Cliente ${id} foi desconectado. Motivo: ${reason}`);
+        restartClient(id);
+    });
 
     try {
-        const browser = await client.pupBrowser;  // acesso ao navegador
-        const pages = await browser.pages();      // pega todas as abas abertas
-        const page = pages[0];                    // normalmente a primeira aba é a do WhatsApp
-
-        // ⚡ Intercepta e bloqueia imagens, CSS e fontes
-        await page.setRequestInterception(true);
-        page.on('request', req => {
-            const tipo = req.resourceType();
-            if (['image', 'stylesheet', 'font'].includes(tipo)) {
-                req.abort();
-            } else {
-                req.continue();
-            }
-        });
-
-        // ... resto do código que já está no evento 'ready'
-
+        client.initialize();
     } catch (err) {
-        console.error(`❌ Erro ao interceptar requisições para cliente ${id}:`, err);
+        console.error(`⚠️ Erro ao inicializar cliente ${id}:`, err.message);
+        restartClient(id);
+    }
+}
+
+// cria grupos de bots automaticamente 
+function gerarGrupos(bots, tamanhoGrupo = 2) {
+    const grupos = [];
+    const botsDisponiveis = [...bots]; 
+
+    while (botsDisponiveis.length >= tamanhoGrupo) {
+        const grupo = botsDisponiveis.splice(0, tamanhoGrupo);
+        grupos.push(grupo);
     }
 
-    try {
-        // Aguarda até o info estar disponível
-        let wid;
-        let attempts = 0;
+    // Se sobrar algum bot sem par
+    if (botsDisponiveis.length > 0) {
+        console.warn("⚠️ Sobrou bot sem grupo:", botsDisponiveis);
+    }
 
-        while ((!client.info || !client.info.wid) && attempts < 10) {
-            await new Promise(r => setTimeout(r, 500)); // espera 500ms
-            attempts++;
-        }
+    return grupos;
+}
 
-        if (!client.info || !client.info.wid) {
-            throw new Error("client.info.wid não disponível após tentativas.");
-        }
-
-        wid = client.info.wid._serialized;
-        console.log(`🤖 Cliente ${id} conectado com número: ${wid}`);
-
-        clients[id] = client;
-        readyClients.add(id);
-
-        // Continua normalmente
-        if (readyClients.size === CLIENT_IDS.length) {
-    console.log("🚀 Todos os bots estão prontos. Iniciando conversas...");
-
+// === Função para iniciar conversas quando todos os bots estiverem prontos
+function iniciarConversas() {
     GROUPS.forEach(group => {
         group.forEach(senderId => {
             const sender = clients[senderId];
@@ -359,58 +379,6 @@ function createClient(id) {
         });
     });
 }
-
-
-    } catch (err) {
-        console.error(`❌ Erro no evento 'ready' do cliente ${id}:`, err);
-    }
-});
-
-
-    client.on('message', async msg => {
-        const myId = client.options.authStrategy.clientId;
-
-        if (respondedMessages.has(msg.id._serialized)) return;
-
-        for (const [otherId, otherClient] of Object.entries(clients)) {
-            const senderWid = otherClient?.info?.wid?._serialized;
-
-            if (otherId !== myId && senderWid === msg.from) {
-                const key = `${otherId}_${myId}`;
-                pendingMessages.delete(key);
-                console.log(`💬 [${myId}] recebeu mensagem de [${otherId}]`);
-                respondedMessages.add(msg.id._serialized);
-                sendWithDelay(client, msg.from, msg.body);
-                break;
-            }
-        }
-    });
-
-    client.on('disconnected', (reason) => {
-        console.log(`❌ Cliente ${id} foi desconectado. Motivo: ${reason}`);
-        restartClient(id); 
-    });
-
-    client.initialize();
-}
-
-function gerarGrupos(bots, tamanhoGrupo = 2) {
-    const grupos = [];
-    const botsDisponiveis = [...bots]; 
-
-    while (botsDisponiveis.length >= tamanhoGrupo) {
-        const grupo = botsDisponiveis.splice(0, tamanhoGrupo);
-        grupos.push(grupo);
-    }
-
-    // Se sobrar algum bot sem par
-    if (botsDisponiveis.length > 0) {
-        console.warn("⚠️ Sobrou bot sem grupo:", botsDisponiveis);
-    }
-
-    return grupos;
-}
-
 
 // === Inicializa todos os bots ===
 CLIENT_IDS.forEach(id => createClient(id));
